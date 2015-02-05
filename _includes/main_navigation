@@ -1,0 +1,66 @@
+<div class="main">
+    <div class="wrapper">
+        <h1><a class="normaltip" href="/index.html" title="Zur Startseite">CarLoc von FELA</a>
+        </h1>
+        <!-- <form id="search1">
+        <input type="text" value="search" onBlur="if(this.value=='') this.value='search'" onFocus="if(this.value=='search') this.value=''"><a onClick="document.getElementById('search1').submit()"></a>
+    </form>-->
+        <ul class="oben">
+            <li><a class="normaltip" title="Kontakt" href="/kontakt.html">Kontakt</a>
+            </li>
+            <li><a class="normaltip" title="Jobs" href="/jobs.html">Jobs</a>
+            </li>
+            <li><a class="normaltip" title="Downloads" href="/downloads.html">Downloads</a>
+            </li>
+            <li><a class="normaltip" title="CarLoc-Portal" href="http://central.carloc.ch" target="_blank">Portal</a>
+            </li>
+        </ul>
+        <br/>
+        <ul class="obentel">
+            <li><a class="normaltip" title="Call us">+41 52 646 46 46</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<nav>
+    <ul class="sf-menu">
+        <li><a href="/produktlinien.html">Produktlinien</a>
+            <ul>
+                <li><a href="http://www.easydrive.ch" target="_blank" title="Website der Produktlinie Easydrive im neuen Tab">Easydrive</a>
+                </li>
+                <li><a href="http://www.carloc.ch" target="_blank" title="Website der Produktlinie CarLoc im neuen Tab">Carloc</a>
+                </li>
+                <li><a href="http://www.switchpanel.ch" target="_blank" title="Website der Produktlinie Switch-Panel® im neuen Tab">Switch-Panel</a>
+                </li>
+                <li><a href="http://www.adyna.ch" target="_blank" title="Website der Produktlinie Adyna im neuen Tab">Adyna</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="/branchen.html">Branchen</a>
+        </li>
+        <li><a href="/referenzen.html">Referenzen</a>
+        </li>
+        <li><a href="/pressemeldungen.html">News</a>
+            <ul>
+                <li><a href="/pressemeldungen.html">Pressemeldungen</a>
+                </li>
+                <li><a href="/news/messetermine.html">Messetermine</a>
+                </li>
+            </ul>
+            <li><a href="http://www.fela.ch" target="_blank">Gruppe</a>
+                <ul>
+                    <li><a href="/fela-niederlassung.html">Niederlassungen</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="/unternehmen.html">Unternehmen</a>
+                <ul>
+                    <li><a href="/verwaltungsrat.html">Verwaltungsrat</a>
+                    </li>
+                    <li><a href="/geschaeftsleitung.html">Gesch&auml;ftsleitung</a>
+                    </li>
+                </ul>
+            </li>
+    </ul>
+    <div class="clear"></div>
+</nav>

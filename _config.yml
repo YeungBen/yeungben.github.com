@@ -1,0 +1,8 @@
+name: 'Your New Jekyll Site'
+markdown: redcarpet
+#markdown: kramdown
+pygments: false
+
+google:
+  tracking_id: 'UA-4712'
+  site_name: 'fela.biz'

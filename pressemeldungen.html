@@ -1,0 +1,227 @@
+---
+layout: default
+title: Pressemeldungen
+---
+
+<article class="grid_14">
+    <p>&nbsp;</p>
+    <h4>News &amp; Presse</h4>
+
+    {% for post in site.posts %}
+    <a class="news_block" href="{{ post.url }}" title="{{ post.title }}">
+        <img src="{{ post.image }}" alt="{{ post.title }}" />
+        <div class="extra-wrap">
+            <strong>{{ post.teaser.title }}</strong>
+            {{ post.teaser.text }}
+            <time>{{ post.department }}: {{ post.teaser.footer }}</time>
+        </div>
+    </a>
+    {% endfor %}
+
+    <div class="p3">
+        <a class="news_block" href="news/easydrive-dynamische-fahrgastinformation-foschlcd.html" title="ÖPNV Pressemeldung FELA-FOSChLCD">
+            <img src="images/news/foschlcd_xs.jpg" alt="ÖPNV Pressemeldung FELA-FOSChLCD" />
+
+            <div class="extra-wrap">
+                <strong>FOSChLCD: Mehr Autonomie für's Land!</strong>
+                Moderne Haltestellenanzeigen auf Basis von cholesterischen LCD erschließen auch ländliche Räume für dynamische Fahrgastinformationen
+                <time datetime="08. Mai 2013">ÖPNV: Pressemitteilung vom 14. Aug. 2013</time>
+            </div>
+        </a>
+        <a class="news_block" href="http://carloc.ch/news/carloc-at-rail-laufleistungserfassung-schienengueterverkehr.html">
+            <img src="images/news/at_rail_new_xs.jpg" alt="CarLoc® AT-Guard von FELA" />
+
+            <div class="extra-wrap">
+                <strong>Neuer CarLoc® AT-Rail von FELA: verbessert Produktivität und Effizienz im Schienengüterverkehr</strong>
+                Transportfortschritt, Stoß- und Flachstellendetektion sowie Laufleistungserfassung im Schienengüterverkehr mit optimalem Preis-Leistungsverhältnis!
+                <time datetime="08. Mai 2013">Telematik: Pressemitteilung vom 07. Juli 2013</time>
+            </div>
+        </a>
+        <a class="news_block" href="http://www.carloc.ch/news/carloc-at-guard-diebstahlschutz-sendungsverfolgung.html">
+            <img src="images/news/at_guard_news.jpg" alt="CarLoc® AT-Guard von FELA" />
+
+            <div class="extra-wrap">
+                <strong>Sicherheit und Kosteneffizienz als zentrale Themen in Bau- und Logistik</strong>
+                CarLoc AT-Guard: komfortable Lösung für Diebstahlschutz für Baumaschinen und Sendungsverfolgung
+                <time datetime="18. Juni 2013">Telematik: Pressemitteilung vom 18. Juni 2013</time>
+            </div>
+        </a>
+        <a class="news_block" href="http://carloc.ch/news/fela-auf-der-transport-logistic.html">
+            <img src="images/news/at_guard_sm.jpg" alt="CarLoc AT-Guard von FELA" />
+
+            <div class="extra-wrap">
+                <strong>Neue Telematiksysteme für Diebstahlschutz und Sendungsver-
+                    <br/>folgung von FELA</strong>
+                Sicherheit und Kosteneffizienz als zentrale Themen der Transport- und Logistikindustrie
+                <time datetime="08. Mai 2013">Telematik: Pressemitteilung vom 08. Mai 2013</time>
+            </div>
+        </a>
+        <a class="news_block" data-gal="photo[2]" href="news/fela_auf_der_uitp.html">
+            <img src="images/news/uitp_sm.jpg" alt="" />
+
+            <div class="extra-wrap">
+                <strong>Fela auf der UITP vom 26.- 30. Mai 2013; Halle 2D, Stand 420, in Geneva</strong>
+                Fela auf der UITP – einfache Lösungen steigern Mobilität und Produktivität im öffentlichen Verkehr Webbasierte, modulare Lösungen für zukunftsfähiges Verkehrsmanagement
+                <time datetime="28. Februar 2013">ÖPNV: Pressemitteilung vom 30.04.2013</time>
+            </div>
+        </a>
+        <a class="news_block" data-gal="photo[2]" href="http://www.hannovermesse.de/aussteller/fela-management/F384423">
+            <img src="images/news/hannovermesse_sm.jpg" alt="" />
+
+            <div class="extra-wrap">
+                <strong>Besuchen Sie uns vom 08-12. April 2013, Halle 1 Stand F24, in Hannover</strong>
+                Hier können Sie sich über die Hannover Messe informieren
+                <time datetime="28. Februar 2013">ÖPNV: 28. Februar 2013</time>
+            </div>
+        </a>
+        <a class="news_block" data-gal="photo[2]" href="news/erfolgreiche-messepremiere-auf-der-innotrans.html">
+            <img src="images/news/1_sm.JPG" alt="" />
+
+            <div class="extra-wrap">
+                <strong>Erfolgreiche Messepremiere auf der InnoTrans 2012 in Berlin</strong>
+                Grosses Interesse an FELA-Fahrgastinformationssystemen
+                <time datetime="29. Oktober 2012">ÖPNV: 29. Oktober 2012</time>
+            </div>
+        </a>
+        <a class="news_block" data-gal="photo[2]" href="news/carloc_auf_der_iaa_nutzfahrzeuge.html">
+            <img src="images/news/schoki_sm.jpg" alt="" />
+
+            <div class="extra-wrap">
+                <strong>FELA zieht positives Resümee zur IAA Nutzfahrzeuge 2012</strong>
+                FELA liegt mit den CarLoc-Telematiksystemen voll im Trend
+                <time datetime="29. Oktober 2012">Telematik: 29. Oktober 2012</time>
+            </div>
+        </a>
+        <a class="news_block" data-gal="photo[2]" href="news/easydrive_loesung_fuer_bahn.html">
+            <img src="images/news/easydrive_sm.jpg" alt="" />
+
+            <div class="extra-wrap">
+                <strong>Modulare Verkehrsmanagement-Lösung EasyDrive erhöht Mobilität der Fahrgäste</strong>
+                Fela Management AG stellt EasyDrive-Lösung für Bahn und ÖPNV vor
+                <time datetime="04. September 2012">ÖPNV: Pressemitteilung vom 04. September 2012</time>
+            </div>
+        </a>
+        <a class="news_block" data-gal="photo[2]" href="news/fela_auf_der_innotrans.html">
+            <img src="images/news/innotrans_sm.jpg" alt="" />
+
+            <div class="extra-wrap">
+                <strong>Besuchen Sie uns auf der InnoTrans</strong>
+                Produktneuentwicklungen werden in Halle 2.1, Stand 214 vorgestellt
+                <time datetime="04. September 2012">ÖPNV: 04. September 2012</time>
+            </div>
+        </a>
+        <a class="news_block" data-gal="photo[2]" href="news/fela_auf_der_iaa.html">
+            <img src="images/news/iaa_sm.jpg" alt="" />
+
+            <div class="extra-wrap">
+                <strong>FELA auf der IAA Nutzfahrzeuge 2012</strong>
+                Produktneuentwicklungen werden in Halle 25, Stand B72 vorgestellt
+                <time datetime="04. September 2012">Telematik: 04. September 2012</time>
+            </div>
+        </a>
+        </a>
+        <a class="news_block" data-gal="photo[2]" href="news/ecodriving_spart_kraftstoff.html">
+            <img src="images/news/eco-driving.jpg" alt="" />
+
+            <div class="extra-wrap">
+                <strong>Eco-Driving spart bei LKW-Flotten jährlich bis zu 10% Kraftstoff</strong>
+                FELA stellt erweiterte Einsatzmöglichkeiten des CarLoc-Systems vor
+                <time datetime="08. August 2012">Telematik: Pressemitteilung vom 08. August 2012</time>
+            </div>
+        </a>
+        <a class="news_block" data-gal="photo[2]" href="news/fela_holt_adyna.html">
+            <img src="images/news/smart_home_sm.jpg" alt="" />
+
+            <div class="extra-wrap">
+                <strong>FELA holt Adyna GmbH an Bord</strong>
+                Adyna und Fela – gemeinsam neue Märkte im Energiemanagement erschließen
+                <time datetime="05. Juni 2012">Energiemanagement: Pressemitteilung vom 05. Juni 2012</time>
+            </div>
+        </a>
+    </div>
+</article>
+<article class="grid_9 prefix_1">
+    <p>&nbsp;</p>
+    <br/>
+
+    <p>Unsere Pressemitteilungen enthalten die aktuellsten Produkt- und Unternehmensinformationen. Sollten Sie doch nicht das gefunden haben wonach Sie suchen, hilft Ihnen unser Presse- und Marketingkontakt weiter!
+    </p>
+    Sind Sie
+    <strong>Journalist</strong>? Nutzen Sie unseren Pressekontakt:</p>
+    <h4>Pressekontakt</h4>
+
+    <p>FELA Management AG
+        <br/>Basadingerstrasse 18
+        <br/>8253 Diessenhofen
+        <br/>Schweiz
+        <br/>Tel.: +41 (0)52-64646-46
+        <br/>Presse <a href="mailto:presse@fela.ch">e-mail</a>
+    </p>
+    <br/>
+
+    <p>Benötigen Sie
+        <strong>Fotomaterial</strong>für
+        <br/>Ihre Online- und Printberichte?</p>
+    <h4>Marketingmaterial</h4>
+
+    <p>FELA Management AG
+        <br/>Marketing
+        <br/>Basadingerstrasse 18
+        <br/>8253 Diessenhofen
+        <br/>Schweiz
+        <br/>Tel.: +41 (0)52-64646-16
+        <br/>Marketing <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%61%72%6B%65%74%69%6E%67%40%66%65%6C%61%2E%63%68">e-mail</a>
+    </p>
+    <br/>
+
+    <p>Möchten Sie uns
+        <strong>treffen</strong>?
+        <br/>
+        <h4>Messetermine</h4>
+        <ul class="list-1 p5">
+            <li><a href="news/messetermine.html">08.-12 April, Hannover Messe, ÖPNV</a>
+            </li>
+            <li><a href="news/messetermine.html">27.-29 Mai, UITP in Genf, ÖPNV</a>
+            </li>
+            <li><a href="news/messetermine.html">04.-07 Juni, Transport & Logistik in München</a>
+            </li>
+        </ul>
+        <h4>Broschüre</h4>
+        <ul class="list-1 p5">
+            <li>FELA Unternehmensbroschüre</li>
+            <iframe width="280px" height="120px" src="http://www.yumpu.com/de/document/embed/wJTHG9hdZkMrM1nb" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe>
+            <br><a style="text-decoration:none; color:#999; background-color:#FFFFFF; border: 1px solid #FFFFFF; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;" href="http://www.yumpu.com/de/document/view/16029151/fela-management-ag-unternehmensbroschuere-2013-05" target="_blank" title="FELA Management AG Unternehmensbroschuere 2013_05">FELA Management AG Unternehmensbroschuere 2013_05</a>
+        </ul>
+        <!-- Place this tag where you want the widget to render. -->
+        <div class="g-follow" data-annotation="vertical-bubble" data-height="24" data-href="//plus.google.com/100172075759387209900" data-rel="publisher"></div>
+
+        <div class="fb-like" data-href="http://www.fela.biz" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+        </div>
+
+        <!-- Place this tag after the last widget tag. -->
+        <script type="text/javascript">
+        window.___gcfg = {
+            lang: 'de'
+        };
+
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+        </script>
+        <div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+</article>

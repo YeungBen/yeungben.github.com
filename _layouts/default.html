@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+
+    {% include stylesheets %}
+    {% include google_analytics %}
+    {% include javascripts %}
+</head>
+<body>
+    <!--==============================header=================================-->
+    <header>
+    {% include header %}
+    </header>
+
+    <!--==============================content================================-->
+    <section id="content">
+        <div class="line line2"></div>
+        <div class="container_24">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </div>
+    </section>
+
+    <!--==============================footer=================================-->
+    <footer>
+    {% include footer %}
+    </footer>
+</body>
+</html>
