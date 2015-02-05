@@ -1,143 +1,259 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="zh">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sandbox Template-mianfeimoban.com</title>
-<meta name="keywords" content="sandbox template, 3D slider, piecemaker, flash, html css website layout" />
-<meta name="description" content="Sandbox Template is integrated with PieceMaker 3D Slider. Feel free to download, edit and use this layout for any purpose." />
-<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <title>YeungBen的个人简历 - GBtags.com</title>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
+  <style>
 
-<script type="text/javascript" src="js/swfobject.js"></script>
-<script type="text/javascript">
+	/* 定义辅助CSS来美化简历头部 */
+	body{
+	  font-family: 'microsoft yahei',Arial,sans-serif;
+	}
 
-      var flashvars = {};
-      flashvars.cssSource = "piecemaker.css";
-      flashvars.xmlSource = "piecemaker.xml";
-		
-      var params = {};
-      params.play = "true";
-      params.menu = "false";
-      params.scale = "showall";
-      params.wmode = "transparent";
-      params.allowfullscreen = "true";
-      params.allowscriptaccess = "always";
-      params.allownetworking = "all";
-	  
-      swfobject.embedSWF('piecemaker.swf', 'piecemaker', '900', '408', '10', null, flashvars,    
-      params, null);
-    
-</script>
+	.cvheader{
+	  border-bottom: 1px solid #DFDFDF;
+	  padding-top:30px;
+	  padding-bottom:20px;
+	}
 
+	.cvheader h1{
+	  margin:0;
+	}
+
+	.address{
+	  background: #efb73e;
+	  color: #fff;
+	  padding: 10px 0;
+	}
+
+	/* 定义辅助CSS来美化简历主体 */
+
+	.cvbody{
+	  padding-top: 50px; 
+	}
+
+	.cbox{
+	  margin-bottom: 30px;
+	  color: #FFF;
+	  padding: 50px;
+	}
+
+	/* 定义cbox颜色 */
+	.green{
+	  background: #2ecc71;
+	}
+
+	.orange{
+	  background: orange;
+	}
+
+	.red{
+	  background: #dd4814;
+	}
+
+	.bbox{
+	  border: 1px solid #DFDFDF;
+	  border-radius: 5px;
+	  margin-bottom:30px;
+	  padding: 50px;
+	}
+
+	.footer{
+	  margin: 30px 0 30px;
+	  padding: 50px;
+	  background: #CCC;
+	  color: #FFF;
+	}
+</style>
 </head>
 <body>
+  <!-- 定义简历的头部 //-->
 
-<div id="templatemo_outer_wrapper">
-
-	<div id="templatemo_wrapper">
+<div class="container">
+  <div class="row cvheader">
+    <div class="col-lg-7 col-md-7 col-xs-12">
+      <!--  添加颜色//-->
+      <h1 class="text-primary">Terry Lee</h1>
+      <!--  添加图标 //-->
+      <p><span class="glyphicon glyphicon-paperclip"></span> 服务器运维 && 网络安全</p>
+    </div>
     
-    	<div id="templatemo_header">
-            <div id="site_title">
-                <a href="http://www.templatemo.com">YoungBen</a>
-            </div> <!-- end of site_title -->
-            
-            <div id="templatemo_menu">
-                <ul>
-                    <li><a href="index.html" class="current">Home</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
-                </ul>    	
-            </div> <!-- end of templatemo_menu -->
-            
-            <div class="cleaner"></div>
-		</div>   <!-- end of header -->
+    <div class="col-lg-3 col-md-3 col-xs-12">
+      <div class="row">
         
-        <div id="templatemo_main">
-        	<div id="featured_project_box">
+        <div class="col-lg-4 col-md-4 col-xs-4">
+          <p id="contact" class="address text-center">联系</p>
+        </div>
+        
+        <div class="col-lg-8 col-md-8 col-xs-8">
+          <p><span class="glyphicon glyphicon-envelope"></span> yeungben@163.com</p>
+          <p><span class="glyphicon glyphicon-earphone"></span> 138284011xx</p>
+          <p><span class="glyphicon glyphicon-road"></span> 广东省广州大学城</p>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="col-lg-2 col-md-2 col-xs-12">
+      <p>
+        <!-- 这里定义图片为响应式，并且添加圆角效果，以便保证图片在不同设备上都可以完美显示 //-->
+        <img data-toggle="tooltip" data-placement="left" id="avatar" title="我是YeungBen" class="img-responsive img-rounded"src="http://cdn.duitang.com/uploads/item/201112/28/20111228214433_Ks5rS.thumb.600_0.jpg" alt="">
+       </p>
+    </div>
+  </div>
+</div>
+
+<!-- 定义简历的主体部分 //-->
+
+<div class="container">
+  <div class="row cvbody">
+    
+    <!-- 这里定义两个区域，布局定义如下：//-->
+    
+    <div class="col-lg-6 col-md-6 col-xs-12">
+    
+      <div class="row">
+        <div class="cbox green">
+          <h4>个人介绍</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus asperiores eum consequatur hic rem earum repudiandae dicta! Est officiis similique fugiat quod quibusdam rerum ipsum eos soluta tempore cupiditate! Accusantium?
+          </p>
+        </div>
+        <div class="cbox red">
+          <h4>个人技能</h4>
+          <p>
+            <!-- 这里使用Bootstrap3的组件添加技能 //-->
             
-            	<div id="piecemaker">
-                  <p>This is a placeholder of 3D Flash Slider. Feel free to put in any alternative content here.</p>
-                </div>
-            	
-            </div> <!-- end of featured project -->
-        </div> <!-- end of main -->
-        
-        <div id="templatemo_content">
-        
-        	<div class="content_box cb_last">
-            	
-                <div class="col_w300 col_first">
-                	<h2>Sandbox Template</h2>
-                    <p align="justify"><em>Sandbox Template is provided by <a href="http://www.templatemo.com" target="_parent">templatemo.com</a> for everyone. You may download, edit and apply this template for your websites.</em></p>
-                    <p align="justify">Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non diam nec nisl ultrices pulvinar non in eros. Aenean eu lectus vel nulla auctor congue. Nam dui enim, faucibus placerat pharetra at, venenatis eget arcu. Maecenas facilisis <a href="#">consequat</a> diam non accumsan.</p>
-                  <p align="justify">Nam ligula lacus, sodales consectetur blandit non, pellentesque non erat. Ut nec eros vel leo placerat auctor. Nulla facilisi. Suspendisse est risus, tincidunt non luctus vel, <a href="#">scelerisque</a> in lorem. Nulla fringilla convallis molestie.</p>
-                    <a href="#" class="more"><span>+</span>Read More</a>
-                </div>
-                
-                <div class="col_w300">
-
-                	<h2>Web Design</h2>
-                    <p align="justify">Fusce lacinia orci at nisi. Suspendisse at nisi nec diam pretium tincidunt. Ut vitae felis eu lectus ultrices varius. Aliquam lacus turpis, dapibus eget, tincidunt eu, lobortis et, magna. Integer pellentesque dignissim diam. Quisque ornare pulvinar lorem.</p>
-
-                    <ul class="tmo_list">
-                        <li><a href="http://www.templatemo.com/page/6">Quisque in diam a justo condimentum</a></li>
-                        <li><a href="http://www.templatemo.com/page/5">Morbi sed nulla ac est cursus</a></li>
-                        <li><a href="http://www.templatemo.com/page/4">Curabitur ullamcorper nibh</a></li>
-                        <li><a href="http://www.templatemo.com/page/3">Aenean eu lectus vel nulla auctor</a></li>  
-                        <li><a href="http://www.templatemo.com/page/2">Ut nec eros vel leo placerat</a></li> 
-                        <li><a href="http://www.templatemo.com/page/1">Etiam non diam nec nisl ultrices pulvinar</a></li>
-                        <li><a href="http://www.flashmo.com">Free Flash Templates</a></li>
-                    </ul>
-
-                    <a href="#" class="more"><span>+</span>Details</a>
-
-                </div>
-                
-                <div class="col_w300 col_last">
-
-               	  <h2>Latest Updates</h2>
-
-                    <ul id="news_box">
-
-                        <li>
-                            <span class="date">OCT 26, 2015</span>
-                            <h6><a href="#">Etiam non diam nec nisl ultrices pulvinar</a></h6>
-                            <p> Curabitur eleifend congue leo. Donec a purus vel purus sollicitudin placerat. Nunc at sem. Sed pellentesque placerat augue. </p>
-                        </li>
-
-                        <li>
-                            <span class="date">OCT 18, 2015</span>
-                            <h6><a href="#">Suspendisse hendrerit turpis id augue</a></h6>
-                            <p> Etiam et neque. Donec dapibus viverra est. Maecenas dignissim, quam a posuere scelerisque, ligula arcu dictum turpis, id tempus turpis erat at nulla. </p>
-                        </li>
-
-                        <li>
-                            <span class="date">OCT 14, 2015</span>
-                            <h6><a href="#">Donec a purus vel purus sollicitudin placerat</a></h6>
-                            <p>Mauris pede nisl, placerat nec, lobortis vitae, dictum sed, neque. Morbi adipiscing dapibus nisl, laoreet sollicitudin tellus tempus eu vehicula nisl.</p>
-                        </li>
-
-                    </ul>
-                    
-                    <a href="#" class="more"><span>+</span>View More</a>
-                    
-                </div>
-                
-                <div class="cleaner"></div>
+            Linux
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" style="width:80%"></div>
             </div>
-        	
-        </div> <!-- end of content -->
-        
-        <div id="templatemo_footer">
-
-			<a href="index.html" class="current">Home</a> | <a href="aboutus.html">About Us</a> | <a href="services.html">Services</a> | <a href="gallery.html">Gallery</a> | <a href="contactus.html">Contact Us</a><br /><br />
-    
-        	Copyright © 2015 <a href="#">YoungBen.github.com</a> | <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a>
             
-	    </div>
-          <a href="http://www.mianfeimoban.com" target="_parent">Free CSS Templates</a>
-	</div> <!-- end of wrapper -->
-</div> <!-- end of outer wrapper -->
+            Python
+            <div class="progress">
+              <div class="progress-bar progress-bar-primary" style="width:90%"></div>
+            </div>
+            
+            服务器
+            <div class="progress">
+              <div class="progress-bar progress-bar-info" style="width:80%"></div>
+            </div>
+            
+            Matlab
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" style="width:50%"></div>
+            </div>
+          </p>
+        </div>
+        <div class="cbox orange">
+          <h4>语言水平</h4>
+          <p>
+			<canvas id="en" width="150" height="150" class="pull-left"></canvas>
+			<canvas id="zh" width="150" height="150" class="pull-right"></canvas>
+			<p class="clearfix"></p>
+          </p>
+        </div>
+      </div>
+    
+    </div>
+    
+    <!-- 为了清楚的分割两个区域，这里我们添加了一个空白区域，或者也可以在CSS中定义Margin实现//-->
+    <div class="col-lg-1 col-md-1 col-xs-12"></div>
+    
+    <div class="col-lg-5 col-md-5 col-xs-12">
+    
+      <div class="row">
+        <div class="bbox">
+          <h4>教育背景</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione enim adipisci minima perspiciatis ad nesciunt iure asperiores voluptatem neque aperiam molestias cupiditate facilis a eveniet iste sapiente ab repellendus dignissimos.</p>
+        </div>
+        <div class="bbox">
+          <h4>工作经验</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dolorem mollitia repellendus. Magni laudantium placeat repudiandae tempore iure deleniti obcaecati. Architecto delectus doloremque quo. Dicta ratione vero eos pariatur itaque.</p>
+        </div>
+        <div class="bbox">
+          <h4>个人爱好</h4>
+          <p>
+            <span class="glyphicon glyphicon-tree-deciduous"></span> 摄影
+            <span class="glyphicon glyphicon-plane"></span> 旅游
+            <p><span class="glyphicon glyphicon-cutlery"></span> 滑轮</p>
+            <p><span class="glyphicon glyphicon-music"></span> 音乐</p>
+          </p>
+        </div>
+      </div>
+    
+    </div>
+    
+    
+  </div>
+</div>
+
+<!-- 定义简历页底 //-->
+<div class="container">
+  <div class="row"><div class="footer text-center">关注-微博</div></div>
+</div>
+
+<!-- 引入jQuery类库和Bootstrap3的Javascript类库 //-->
+<script type='text/javascript' src="http://libs.baidu.com/jquery/1.11.1/jquery.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<script>
+/*Javascript源代码*/
+
+$(function(){
+  $('#contact').popover({placement:'bottom', container: 'body', html:true,content:'<p>QQ:609160644</p><p>微博：weibo.com/GeekBen</p><p>微信：youngcoin/p>'});
+  $('#avatar').tooltip({'placement':'bottom'});
+  
+	$.getScript('http://www.chartjs.org/assets/Chart.js',function(){
+	  
+	  var zhdata = [{
+			label: '中文水平',
+			value: 90,
+			highlight: "#FFC870",
+			color: "#F7464A"
+		}, {
+			value: 10,
+			color: "#EEEEEE"
+		}
+		]
+
+		var zhoptions = {
+			animation: true,
+			segmentShowStroke : false
+		};
+
+		var c = $('#zh');
+		var ct = c.get(0).getContext('2d');
+		
+		var zhChart = new Chart(ct).Doughnut(zhdata, zhoptions);
+
+	
+	  var endata = [{
+			label: '英文水平',
+			value: 80,
+			highlight: "#5AD3D1",
+			color: "#4D5360"
+		}, {
+        value: 20,
+        color: "#EEEEEE"
+		}
+		]
+
+		var enoptions = {
+			animation: true,
+			segmentShowStroke : false
+		};
+
+		var c = $('#en');
+		var ct = c.get(0).getContext('2d');
+		
+		var enchart = new Chart(ct).Doughnut(endata, enoptions);
+	});
+
+});
+
+</script>
 </body>
 </html>
