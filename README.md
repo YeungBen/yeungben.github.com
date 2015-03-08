@@ -1,2 +1,2 @@
 # yeungben.github.com
-My Blog
+My resume
