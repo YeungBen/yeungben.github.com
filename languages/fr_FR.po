@@ -1,0 +1,1861 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mexin FR\n"
+"POT-Creation-Date: 2013-10-14 14:14+0330\n"
+"PO-Revision-Date: 2013-10-14 14:14+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: G:\\xampp\\htdocs\\mexin\\wp-content\\themes\\mexin-"
+"wp\n"
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/blog-default.php:10
+#, php-format
+msgid "<small>Daily Archives:</small> %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/blog-default.php:12
+#, php-format
+msgid "<small>Monthly Archives:</small> %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/blog-default.php:14
+#, php-format
+msgid "<small>Yearly Archives:</small> %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/blog-default.php:17
+#, php-format
+msgid "<small>Category Archives:</small> %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/functions.php:93
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:442
+msgid "Header Menu"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/functions.php:94
+msgid "Footer Navigation Menu"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/functions.php:95
+msgid "Header Top Navigation"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/functions.php:96
+msgid "Left Navigation Page Template Menu"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/header-404.php:24
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/header-dark.php:24
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/header.php:35
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/search.php:20
+#, php-format
+msgid "<small>Search Results for:</small> %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/single.php:86
+msgid "Next Post"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/single.php:87
+msgid "Previous Post"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/taxonomy-filter.php:9
+msgid "Portfolio Archive"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:12
+msgid "PageNavi Settings"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:13
+msgid "PageNavi"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:31
+msgid "Text For Number Of Pages"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:36
+msgid "The current page number."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:37
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:61
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:69
+msgid "The total number of pages."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:41
+msgid "Text For Current Page"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:45
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:53
+msgid "The page number."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:49
+msgid "Text For Page"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:57
+msgid "Text For First Page"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:65
+msgid "Text For Last Page"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:73
+msgid "Text For Previous Page"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:79
+msgid "Text For Next Page"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:85
+msgid "Text For Previous ..."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:91
+msgid "Text For Next ..."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:98
+msgid "Page Navigation Text"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:99
+msgid "Leaving a field blank will hide that part of the navigation."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:105
+msgid "Use pagenavi-css.css"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:111
+msgid "Page Navigation Style"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:114
+msgid "Normal"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:114
+msgid "Drop-down List"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:119
+msgid "Always Show Page Navigation"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:122
+msgid "Show navigation even if there's only one page."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:126
+msgid "Number Of Pages To Show"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:133
+msgid "Number Of Larger Page Numbers To Show"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:138
+msgid ""
+"Larger page numbers are in addition to the normal page numbers. They are "
+"useful when there are many pages of posts."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:139
+msgid ""
+"For example, WP-PageNavi will display: Pages 1, 2, 3, 4, 5, 10, 20, 30, 40, "
+"50."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:140
+msgid "Enter 0 to disable."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:144
+msgid "Show Larger Page Numbers In Multiples Of"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:149
+msgid "For example, if mutiple is 5, it will show: 5, 10, 15, 20, 25"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/admin.php:154
+msgid "Page Navigation Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/wp-pagenavi.php:20
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/wp-pagenavi.php:23
+msgid "&laquo; First"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/wp-pagenavi.php:24
+msgid "Last &raquo;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/wp-pagenavi.php:25
+msgid "&laquo;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/wp-pagenavi.php:26
+msgid "&raquo;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/wp-pagenavi.php:27
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/wp-pagenavi.php:28
+msgid "..."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/scb/AdminPage.php:172
+msgid "Settings <strong>saved</strong>."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/scb/AdminPage.php:185
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/scb/AdminPage.php:196
+msgid "Save Changes"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/helpers/wp-pagenavi/scb/AdminPage.php:346
+msgid "Settings"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:31
+msgid "A Section added by hook"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:32
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array, great to allow child themes, to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:97
+msgid ""
+"<p>webnus theme options. all about theme option which can be edited is here."
+"</p>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:124
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:127
+msgid "Theme Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:195
+msgid "General"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:196
+msgid "<p class=\"description\">Setup the general options of theme.</p>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:201
+msgid "One Click Import Data"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:208
+msgid "Layout"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:216
+msgid "Custom Favicon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:217
+msgid "An ico image that will represent your website's favicon (16px x 16px)"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:222
+msgid "Apple iPhone Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:223
+msgid "Icon for Apple iPhone (57px x 57px)"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:228
+msgid "Apple iPad Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:229
+msgid "Icon for Apple iPad (72px x 72px)"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:234
+msgid "Tracking Code"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:235
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:236
+msgid "Google Analytics"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:241
+msgid "Allow Comments On Pages"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:242
+msgid "Allow comments on regular pages."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:248
+msgid "Space Before &lt;/heade&gt;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:249
+msgid "Add code before the &lt;/head&gt; tag."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:254
+msgid "Space Before &lt;/body&gt;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:255
+msgid "Add code before the &lt;/body&gt; tag."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:260
+msgid "Slogan"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:261
+msgid "Slogan Text"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:266
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:456
+msgid "Contact Information"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:271
+msgid "Address"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:276
+msgid "Phone"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:281
+msgid "Email Address"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:286
+msgid "Google Map Embed Source"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:291
+msgid "Admin Login Logo"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:292
+msgid "Please choose an image file for admin login page logo."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:299
+msgid "Header Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:304
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1002
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1009
+msgid "Logo"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:305
+msgid ""
+"Please choose an image file for your logo.<br/> For Retina displays please "
+"add Image in large size and set custom width."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:310
+msgid "Logo Width"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:317
+msgid "Topbar Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:322
+msgid "Show/Hide TopBar"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:323
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:380
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:387
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:394
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:401
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:408
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:415
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:422
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:429
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:436
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:986
+msgid "Hide"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:323
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:380
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:387
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:394
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:401
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:408
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:415
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:422
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:429
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:436
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:986
+msgid "Show"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:329
+msgid "Topbar Left side"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:330
+msgid ""
+"Select Topbar left side content, you can select one of Topbar Menu or "
+"Contact Information or Social Icons"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:337
+msgid "Topbar Right side"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:338
+msgid ""
+"Select Topbar right side content, you can select one of Topbar Menu/Contact "
+"Information/Social Icons"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:346
+msgid "Header Phone Number"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:352
+msgid "Header Email Address"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:358
+msgid "Topbar Left side tag line"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:359
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:366
+msgid "Insert Any Headline Or Link You Want Here"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:365
+msgid "Topbar Right side tag line"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:373
+msgid "TopBar Social Icons"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:379
+msgid "Show/Hide Facebook Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:386
+msgid "Show/Hide Twitter Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:393
+msgid "Show/Hide Dribbble Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:400
+msgid "Show/Hide Pinterest Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:407
+msgid "Show/Hide Vimeo Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:414
+msgid "Show/Hide Youtube Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:421
+msgid "Show/Hide Google+ Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:428
+msgid "Show/Hide LinkedIn Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:435
+msgid "Show/Hide RSS Icon"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:447
+msgid "Enable/Disable Sticky Menu"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:448
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:656
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:861
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:884
+msgid "Disable"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:448
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:656
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:861
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:884
+msgid "Enable"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:454
+msgid "Logo Right side"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:455
+msgid ""
+"Select Content of logo right side. you can select Searchbox or Contact "
+"Information"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:456
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:521
+msgid "None"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:456
+msgid "Search Box"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:462
+msgid "Select Menu Layout"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:463
+msgid "Menu Layout 1"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:464
+msgid "Menu Layout 2"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:465
+msgid "Menu Layout 3"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:466
+msgid "Menu Layout 4"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:467
+msgid "Menu Layout 5"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:482
+msgid "Background"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:493
+msgid "Background Image"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:494
+msgid "Please choose an image or insert an image url to use for the backgroud."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:499
+msgid "100% Background Image"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:500
+msgid ""
+"Have background image always at 100% in width and height and scale according "
+"to the browser size"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:506
+msgid "Background Repeat"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:507
+msgid "repeat"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:507
+msgid "repeat-x"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:507
+msgid "repeat-y"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:507
+msgid "no-repeat"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:513
+msgid "Background Color"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:514
+msgid "Pick a background color"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:520
+msgid "Background Pattern"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:522
+msgid "Default BG"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:522
+msgid "Gray Jean"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:522
+msgid "Light Wool"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:523
+msgid "Subtle Freckles"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:524
+msgid "Subtle Freckles 2"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:525
+msgid "Green Fibers"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:526
+msgid "Dust"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:539
+msgid "Typography"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:544
+msgid "Select Body Font Family"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:545
+msgid "Select a font family for body text"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:551
+msgid "Select Menu Font Family"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:552
+msgid "Select a font family for navigation"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:558
+msgid "Select Headings Font"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:559
+msgid "Select a font family for headings"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:565
+msgid "Select Paragraph Font"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:566
+msgid "Select a font family for paragraphs, &lt;P&gt; Tags "
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:577
+msgid "Body Font Size (px)"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:583
+msgid "Top Nav Font Size (px)"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:590
+msgid "Font Size For &lt;H1&gt; Tag"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:596
+msgid "Font Size For &lt;H2&gt; Tag"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:602
+msgid "Font Size For &lt;H3&gt; Tag"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:608
+msgid "Font Size For &lt;H4&gt; Tag"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:614
+msgid "Font Size For &lt;H5&gt; Tag"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:620
+msgid "Font Size For &lt;H6&gt; Tag"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:630
+msgid "Styling Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:635
+msgid "Predefined Color Skin"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:636
+msgid "Default: Blue&nbsp;&nbsp;&nbsp;&nbsp;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:636
+msgid "Color 2: Cherry"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:637
+msgid "Color 3: Teal&nbsp;&nbsp;&nbsp;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:637
+msgid "Color 4: Red"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:638
+msgid "Color 5: Pink&nbsp;&nbsp;&nbsp;&nbsp;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:639
+msgid "Color 6: Green"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:640
+msgid "Color 7: Orchid"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:641
+msgid "Color 8: Jade&nbsp;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:642
+msgid "Color 9:SkyBlue"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:643
+msgid "Color 10: Orange"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:650
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:663
+msgid "Custom Color Skin"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:655
+msgid "Custom Color Skin Enable/Disable"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:657
+msgid "Enable or Disable Custom Color Skin"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:664
+msgid "Choose custom color for color skin"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:670
+msgid "Other Colors"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:677
+msgid "Headings Font Color"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:678
+msgid "Choose colors for headings(h1,h2,h3,...)"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:684
+msgid "Paragraph Color"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:685
+msgid "This is the color of the Paragraphs"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:691
+msgid "Link Color"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:692
+msgid "This is the color of the Links"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:698
+msgid "Visited Link Color"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:699
+msgid "This is the color of the Visted Links"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:705
+msgid "Actived Link Color"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:706
+msgid "This is the color of the Actived Links"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:712
+msgid "Link Hover Color"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:713
+msgid "This is the color of the Links Hover"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:735
+msgid "Blog Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:736
+msgid "<p class=\"description\">Customize Blogs</p>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:742
+msgid "BlogTemplate"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:743
+msgid "Blog 1(Full Width Image)"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:743
+msgid "Blog 2(Thmbnail Image)"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:743
+msgid "Timeline"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:749
+msgid "Blog Page Title"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:755
+msgid "Featured Image"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:756
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:763
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:770
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:777
+msgid "Off"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:756
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:763
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:770
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:777
+msgid "On"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:762
+msgid "Featured Image on Single Post Page"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:769
+msgid "Post Title"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:776
+msgid "Author Box"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:783
+msgid "Excerpt Or Full Blog Content"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:784
+msgid "Show excerpt or Full Blog Content On Blog Pages"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:785
+msgid "Excerpt"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:785
+msgid "&nbsp;&nbsp;&nbsp;Full&nbsp;&nbsp;&nbsp;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:791
+msgid "Excerpt Length"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:797
+msgid "Read More Text"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:803
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:810
+msgid "Single Post Sidebar Position"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:829
+msgid "Portfolio Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:834
+msgid "Portfolio Slug"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:840
+msgid "Number of Portfolio Items Per Page"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:846
+msgid "Select Portfolio Columns"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:860
+msgid "Enable/Disable Portfolio Isotope Effect"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:868
+msgid "Portfolio Image Width in(px)"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:875
+msgid "Portfolio Image Height in(px)"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:883
+msgid "Enable/Disable Recent Works In Single Portfolio Item"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:895
+msgid "Social Networks"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:896
+msgid "<p class=\"description\">Customize The Social Network Accounts</p>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:901
+msgid "Twitter ID"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:902
+msgid "Example: mytwitterid"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:903
+msgid "Enter the Twitter ID"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:909
+msgid "Facebook Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:910
+msgid "Example: http://facebook.com/myfacebook"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:911
+msgid "Enter the Facebook ID"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:917
+msgid "Youtube Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:918
+msgid "Example: http://youtube.com/account"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:919
+msgid "Enter the Youtube Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:925
+msgid "Linkedin Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:926
+msgid "Example: http://linkedin/linkedinid"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:927
+msgid "Enter the Linkedin Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:933
+msgid "Dribbble Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:934
+msgid "Example: http://dribbble.com/dribbbleid"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:935
+msgid "Enter the Dribbble Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:941
+msgid "Pinterest Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:942
+msgid "Example: http://pinterest/pinterestid"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:943
+msgid "Enter the Pinterest Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:949
+msgid "Vimeo Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:950
+msgid "Example: http://vimeo.com/"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:951
+msgid "Enter the viemo Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:957
+msgid "Google+ Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:958
+msgid "Example: http://plus.google.com/"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:959
+msgid "Enter the google+ Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:965
+msgid "RSS Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:966
+msgid "Example: http://exaple.com/rss"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:967
+msgid "Enter the RSS Link"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:978
+msgid "Footer Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:979
+msgid "<p class=\"description\">Customize Footer</p>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:985
+msgid "Footer Bottom Show/Hide"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:994
+msgid "Footer Color Style"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:995
+msgid "Dark"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:995
+msgid "Light"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1001
+msgid "Footer Bottom Left Content"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1002
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1009
+msgid "Menu"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1002
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1009
+msgid "Copyright"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1008
+msgid "Footer Bottom Right Content"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1017
+msgid "Footer Logo"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1018
+msgid "Please choose an image file for footer logo."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1023
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1029
+msgid "Footer Type"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1030
+msgid "Footer Layout 1"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1031
+msgid "Footer Layout 2"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1032
+msgid "Footer Layout 3"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1033
+msgid "Footer Layout 4"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1034
+msgid "Footer Layout 5"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1047
+msgid "404 Page"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1048
+msgid "<p class=\"description\">Customize Default 404 Page(Page Not Found)</p>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1053
+msgid "Text To Display"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1077
+msgid "Custom CSS"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1082
+msgid "Paste your css code."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1083
+msgid "Do not include tags or any html tag in this field<br />"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1088
+msgid "CSS Code"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1102
+msgid "Woocommerce"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1107
+msgid "Shop page title"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1113
+msgid "Product page title"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1139
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1140
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1141
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1143
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/nc-options.php:1150
+msgid "Theme Information"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:51
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:53
+msgid "Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:65
+msgid ""
+"<span id=\"footer-thankyou\">Webnus web development group. Visit us on <a "
+"href=\"http://themeforest.net/user/WEBNUS/\" target=\"_blank\">Themeforest</"
+"a>  </span>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:68
+msgid " "
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:254
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:255
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:688
+msgid "Import / Export"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:281
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:282
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:707
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:789
+msgid "Dev Mode Info"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:337
+msgid "Are you sure? Resetting will loose all custom values."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:654
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:814
+msgid "Reset to Defaults"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:660
+msgid "<strong>Settings Imported!</strong>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:662
+msgid "<strong>Settings Saved!</strong>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:666
+msgid "<strong>Settings have changed!, you should save them!</strong>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:667
+msgid "<strong><span></span> error(s) were found!</strong>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:669
+msgid "<strong><span></span> warning(s) were found!</strong>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:725
+msgid "Import / Export Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:727
+msgid "Import Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:735
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:748
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:758
+msgid "Import"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:758
+msgid ""
+"WARNING! This will overwrite any existing options, please proceed with "
+"caution!"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:761
+msgid "Export Options"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/noptions.php:763
+msgid ""
+"Here you can copy/download your themes current option settings. Keep this "
+"safe as you can use it as a backup should anything go wrong. Or you can use "
+"it to restore your settings on this site (or any other site). You also have "
+"the handy option to copy the link to yours sites settings. Which you can "
+"then use to duplicate on another site"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/fields/color_gradient/field_color_gradient.php:35
+msgid "From:"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/fields/color_gradient/field_color_gradient.php:38
+msgid " To:"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/fields/google_webfonts/field_google_webfonts.php:42
+msgid ""
+"The fonts provided below are free to use custom fonts from the <a href="
+"\"http://www.google.com/webfonts\" target=\"_blank\">Google Web Fonts "
+"directory</a>.<br/>Please <a href=\"http://www.google.com/webfonts\" target="
+"\"_blank\">browse the directory</a> to preview a font, then select your "
+"choice below."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/fields/multi_text/field_multi_text.php:39
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/fields/multi_text/field_multi_text.php:46
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/fields/multi_text/field_multi_text.php:50
+msgid "Remove"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/fields/multi_text/field_multi_text.php:54
+msgid "Add More"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/fields/upload/field_upload.php:39
+msgid "Browse"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/fields/upload/field_upload.php:40
+msgid "Remove Upload"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/validation/color/validation_color.php:15
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/validation/comma_numeric/validation_comma_numeric.php:15
+msgid ""
+"You must provide a comma seperated list of numerical values for this option."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/validation/date/validation_date.php:15
+msgid "This field must be a valid date."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/validation/email/validation_email.php:15
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/validation/no_special_chars/validation_no_special_chars.php:15
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/validation/numeric/validation_numeric.php:15
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/nc-options/options/validation/url/validation_url.php:15
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:13
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:16
+msgid "Portfolio"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:22
+msgid "articles"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:29
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:32
+msgid "New Portfolio Item"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:35
+msgid "View Portfolio"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:38
+msgid "Search Portfolio"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:41
+msgid "No Portfolio Items Found"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:44
+msgid "No Portfolio Items Found In Trash"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:95
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:105
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:151
+msgid "portfolio"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:111
+#, php-format
+msgid "Portfolio Updated. <a href=\"%s\">View portfolio</a>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:114
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:282
+msgid "Custom Field Updated."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:117
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:285
+msgid "Custom Field Deleted."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:120
+msgid "Portfolio Updated."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:123
+#, php-format
+msgid "Portfolio Restored To Revision From %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:126
+#, php-format
+msgid "Portfolio Published. <a href=\"%s\">View Portfolio</a>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:129
+msgid "Portfolio Saved."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:132
+#, php-format
+msgid ""
+"Portfolio Submitted. <a target=\"_blank\" href=\"%s\">Preview Portfolio</a>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:135
+#, php-format
+msgid ""
+"Portfolio Scheduled For: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Portfolio</a>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:135
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:303
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:138
+#, php-format
+msgid ""
+"Portfolio Draft Updated. <a target=\"_blank\" href=\"%s\">Preview Portfolio</"
+"a>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:148
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:316
+msgid "filter"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:156
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:157
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:324
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:325
+msgid "Categories"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:185
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:188
+msgid "FAQ"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:196
+msgid "Edit FAQ Item"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:199
+msgid "New FAQ Item"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:202
+msgid "View FAQ"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:205
+msgid "Search FAQ"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:208
+msgid "No FAQ Items Found"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:211
+msgid "No FAQ Items Found In Trash"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:258
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:263
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:273
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:319
+msgid "faq"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:279
+#, php-format
+msgid "FAQ Updated. <a href=\"%s\">View FAQ</a>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:288
+msgid "FAQ Updated."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:291
+#, php-format
+msgid "FAQ Restored To Revision From %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:294
+#, php-format
+msgid "FAQ Published. <a href=\"%s\">View FAQ</a>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:297
+msgid "FAQ Saved."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:300
+#, php-format
+msgid "FAQ Submitted. <a target=\"_blank\" href=\"%s\">Preview FAQ</a>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:303
+#, php-format
+msgid ""
+"FAQ Scheduled For: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview FAQ</a>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/other/cpt.php:306
+#, php-format
+msgid "FAQ Draft Updated. <a target=\"_blank\" href=\"%s\">Preview FAQ</a>"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/parsers.php:42
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/parsers.php:72
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/parsers.php:84
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/parsers.php:89
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/parsers.php:279
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:135
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:144
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:195
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:199
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:208
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:136
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:179
+msgid "All done."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:179
+msgid "Have fun!"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:180
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:200
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:216
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:241
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:267
+msgid "Assign Authors"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:268
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:270
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:280
+msgid "Import Attachments"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:283
+msgid "Download and import file attachments"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:300
+msgid "Import author:"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:311
+msgid "or create new user with login name:"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:314
+msgid "as a new user:"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:322
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:324
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:325
+msgid "- Select -"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:375
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:426
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:466
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:512
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:653
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:538
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:560
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:619
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:784
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:791
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:854
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:867
+msgid "Invalid file type"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:911
+msgid "Remote server did not respond"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:917
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:924
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:929
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:935
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:1034
+msgid "Import WordPress"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:1041
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:1056
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:1057
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/plugins/wordpress-importer/wordpress-importer.php:1131
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:12
+msgid "Left Sidebar"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:14
+msgid "Appears in left side in the blog page."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:22
+msgid "Right Sidebar"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:24
+msgid "Appears in right side in the blog page."
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:38
+msgid "Footer Section 1"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:40
+msgid "Appears in footer section 1"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:48
+msgid "Footer Section 2"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:50
+msgid "Appears in footer section 2"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:59
+msgid "Footer Section 3"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:61
+msgid "Appears in footer section 3"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:69
+msgid "Footer Section 4"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:71
+msgid "Appears in footer section 4"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:81
+msgid "WooCommerce Page Sidebar"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/inc/sidebars/general-sidebars.php:83
+msgid "Product page widget area"
+msgstr ""
+
+#: G:\xampp\htdocs\mexin\wp-content\themes\mexin-wp/parts/blogloop-none.php:2
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
