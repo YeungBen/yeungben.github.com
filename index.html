@@ -1,405 +1,268 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Ben's Resume</title>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
+  <style>
 
-    <title>Ben's Resume </title>
+	/* 定义辅助CSS来美化简历头部 */
+	body{
+	  font-family: 'microsoft yahei',Arial,sans-serif;
+	}
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+	.cvheader{
+	  border-bottom: 1px solid #DFDFDF;
+	  padding-top:30px;
+	  padding-bottom:20px;
+	}
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+	.cvheader h1{
+	  margin:0;
+	}
+
+	.address{
+	  background: #efb73e;
+	  color: #fff;
+	  padding: 10px 0;
+	}
+
+	/* 定义辅助CSS来美化简历主体 */
+
+	.cvbody{
+	  padding-top: 50px; 
+	}
+
+	.cbox{
+	  margin-bottom: 30px;
+	  color: #FFF;
+	  padding: 50px;
+	}
+
+	/* 定义cbox颜色 */
+	.green{
+	  background: #2ecc71;
+	}
+
+	.orange{
+	  background: orange;
+	}
+
+	.red{
+	  background: #dd4814;
+	}
+
+	.bbox{
+	  border: 1px solid #DFDFDF;
+	  border-radius: 5px;
+	  margin-bottom:30px;
+	  padding: 50px;
+	}
+
+	.footer{
+	  margin: 30px 0 30px;
+	  padding: 50px;
+	  background: #CCC;
+	  color: #FFF;
+	}
+</style>
+</head>
+<body>
+  <!-- 定义简历的头部 //-->
+
+<div class="container">
+  <div class="row cvheader">
+    <div class="col-lg-7 col-md-7 col-xs-12">
+      <!--  添加颜色//-->
+      <h1 class="text-primary">Yeung Ben</h1>
+      <!--  添加图标 //-->
+      <p><a href="src/Ben.pdf"> <i class="glyphicon glyphicon-cloud-download"></i></a>   服务器运维 && 网络安全 </p>
+    </div>
     
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <div class="col-lg-3 col-md-3 col-xs-12">
+      <div class="row">
+        
+        <div class="col-lg-4 col-md-4 col-xs-4">
+          <p id="contact" class="address text-center">联系</p>
+        </div>
+        
+        <div class="col-lg-8 col-md-8 col-xs-8">
+          <p><span class="glyphicon glyphicon-envelope"></span> yeungben@163.com</p>
+          <p><span class="glyphicon glyphicon-earphone"></span> 13828401197</p>
+          <p><span class="glyphicon glyphicon-road"></span> 广东省广州大学城</p>
+        </div>
+        
+      </div>
+    </div>
     
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <div class="col-lg-2 col-md-2 col-xs-12">
+      <p>
+        <!-- 这里定义图片为响应式，并且添加圆角效果，以便保证图片在不同设备上都可以完美显示 //-->
+        <img data-toggle="tooltip" data-placement="left" id="avatar" title="I'm Ben.Welcome to here!" class="img-responsive img-rounded"src="http://cdn.duitang.com/uploads/item/201112/28/20111228214433_Ks5rS.thumb.600_0.jpg" alt="">
+       </p>
+    </div>
+  </div>
+</div>
+
+<!-- 定义简历的主体部分 //-->
+
+<div class="container">
+  <div class="row cvbody">
     
-    <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
-    <script src="assets/js/Chart.js"></script>
+    <!-- 这里定义两个区域，布局定义如下：//-->
+    
+    <div class="col-lg-6 col-md-6 col-xs-12">
+    
+      <div class="row">
+        <div class="cbox green">
+          <h4>项目经验</h4>
+          <p>◆具有拓扑鲁棒性的三维人脸识别算法研究(主要参与人员)</p>  
+	  <p>该项目属国家青年科学基金项目，研究在光照、姿势、表情、化妆、年龄等变化的情况下具有鲁棒性的三维人脸识别算法，提出一种基于MDS和GMDS的图像重建方法，和基于拓扑鲁棒性的散布距离的算法理论推导与数值算法框架，该模型计算可计算不同表情的人脸数据的相似度。</p>
+          </p>◆负责工作：作为项目主要成员之一，建立数学模型，应用MATLAB软件，完成整个项目的程序编写与仿真实验。</p>
+        </div>
+        <div class="cbox red">
+          <h4>个人技能</h4>
+          <p>
+            <!-- 这里使用Bootstrap3的组件添加技能 //-->
+            
+            Linux
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" style="width:85%"></div>
+            </div>
+            
+            TCP/IP
+            <div class="progress">
+              <div class="progress-bar progress-bar-info"style="width:80%"></div>
+            </div>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-  </head>
+            Python
+            <div class="progress">
+              <div class="progress-bar progress-bar-primary" style="width:90%"></div>
+            </div>
+            
+            Git Hub
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" style="width:78%"></div>
+            </div>
+            
+            MySQL
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger" style="width:70%"></div>
+            </div>
+          </p>
+        </div>
+        <div class="cbox orange">
+          <h4>语言水平</h4>
+          <p>
+			<canvas id="en" width="150" height="150" class="pull-left"></canvas>			
+			<canvas id="zh" width="150" height="150" class="pull-right"></canvas>
+			<p class="clearfix"></p>
+          </p>
+        </div>
+      </div>
+    
+    </div>
+    
+    <!-- 为了清楚的分割两个区域，这里我们添加了一个空白区域，或者也可以在CSS中定义Margin实现//-->
+    <div class="col-lg-1 col-md-1 col-xs-12"></div>
+    
+    <div class="col-lg-5 col-md-5 col-xs-12">
+    
+      <div class="row">
+        <div class="bbox">
+          <h4>获奖情况</h4>
+          <p>2012~2013学年获国家励志奖学金；</p>
+	  <p>2012~2013、2013~2014连续两年获得学校优秀学生奖学金；</p>
+	  <p>2012~2013获校“优秀共青团员”；</p>
+        </div>
+        <div class="bbox">
+          <h4>社会实践</h4>
+          <p>◆2012.09-2013.07 信息工程学院团委团建部干事，主要负责学院党团活动前期策划，与团支部沟通合作</p>
+	  <p>◆2012.10-2014.06 担任学校网络信息中心视频制作员，负责前期拍摄过多项校级活动，后期处理和包装</p>
+	  <p>◆2013.07-2013.08 参加广东省担当者行动教育发展中心举办的“担当者行动·暑期夏令营”，期间在福建厦门项目点担任科学探秘志愿者老师，与10位来自全国各地的大学生队友出色完成夏令营的任务</p>
+        </div>
+        <div class="bbox">
+          <h4>个人爱好</h4>
+          <p>
+            <span class="glyphicon glyphicon-tree-deciduous"></span> 摄影
+            <span class="glyphicon glyphicon-plane"></span> 旅游
+            <p><span class="glyphicon glyphicon-cutlery"></span> 美食</p>
+            <p><span class="glyphicon glyphicon-music"></span> 音乐</p>			
+          </p>  
+        </div>
+      </div>
+    
+    </div>
+    
+    
+  </div>
+</div>
 
-  <body data-spy="scroll" data-offset="0" data-target="#nav">
+<!-- 定义简历页底 //-->
+<div class="container">
+  <div class="row"><div class="footer text-center">Thank You for Your Reading!More About Me<a href="src/index.html"><span class="glyphicon glyphicon-log-in"></span></a> </div></div>
+</div>
 
-	<div id="section-topbar">
-		<div id="topbar-inner">
-			<div class="container">
-				<div class="row">
-					<div class="dropdown">
-						<ul id="nav" class="nav">
-							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
-						</ul><!--/ uL#nav -->
-					</div><!-- /.dropdown -->
+<!-- 引入jQuery类库和Bootstrap3的Javascript类库 //-->
+<script type='text/javascript' src="http://libs.baidu.com/jquery/1.11.1/jquery.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-					<div class="clear"></div>
-				</div><!--/.row -->
-			</div><!--/.container -->
+<script>
+/*Javascript源代码*/
 
-			<div class="clear"></div>
-		</div><!--/ #topbar-inner -->
-	</div><!--/ #section-topbar -->
-	
-	<div id="headerwrap">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-12">
-					<h1>Yeung Ben</h1>
-					<h3>Operations Engineer | yeungbeng@gmail.com</h3>
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
-	
+$(function(){
+  $('#contact').popover({placement:'bottom', container: 'body', html:true,content:'<p>QQ:609160644</p><a href="http://weibo.com/GeekBen">微博:weibo.com/GeekBen</a><p>微信：youngcoin<p>'});
+  $('#avatar').tooltip({'placement':'bottom'});
+  
+	$.getScript('http://www.chartjs.org/assets/Chart.js',function(){
+	  
+	  var zhdata = [{
+			label: 'CET-6',
+			value: 476,
+			highlight: "#FFC870",
+			color: "#F7464A"
+		}, {
+			value: 234,
+			color: "#EEEEEE"
+		}
+		]
 
-	<section id="about" name="about"></section>
-	<div id="intro">
-		<div class="container">
-			<div class="row">
-				
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>ABOUT</h5>
-				</div>
-				<div class="col-lg-6">
-					<p>I'm web designer & front-end developer with 7 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web development.</p>
-				</div>
-				<div class="col-lg-3">
-					<p><a href="assets/img/Ben.pdf"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
-				</div>
-				
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #intro -->
+		var zhoptions = {
+			animation: true,
+			segmentShowStroke : false
+		};
 
-
-	<section id="resume" name="resume"></section>
-	<!--EDUCATION DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>EDUCATION</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Master of Web Design</t><br/>
-						St. Patrick University <br/>
-						<i>3 Years Course</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>GRADUATING IN MAY 2014</sm><br/>
-					<imp><sm>IN PROGRESS</sm></imp>
-					</p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Degree of Web Developer</t><br/>
-						Hastings University <br/>
-						<i>2 Years Course</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JUNE 2012</sm></p>
-				</div>
-	
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-	
-	
-	<!--WORK DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>WORK</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Front-end Developer</t><br/>
-						Black Tie Corp. <br/>
-					</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>AUGUST 2012 - CURRENT</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Web Designer - Intern</t><br/>
-						Onassis Ltd. <br/>
-					</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JUNE 2010 - JULY 2012</sm></p>
-				</div>
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-
-
-	<!--AWARDS DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>AWARDS</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Best Web Design</t><br/>
-						Black Tie Site <br/>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>NOVEMBER 2013</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Designer of the Year</t><br/>
-						Awwwards Site
-					</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>2013</sm></p>
-				</div>
+		var c = $('#zh');
+		var ct = c.get(0).getContext('2d');
 		
-		</div><!--/.row -->
-		<br>
-	</div><!--/.container -->
+		var zhChart = new Chart(ct).Doughnut(zhdata, zhoptions);
+
 	
-	
-	<!--SKILLS DESCRIPTION -->
-	<div id="skillswrap">
-		<div class="container">
-			<div class="row">
-					<div class="col-lg-2 col-lg-offset-1">
-						<h5>SKILLS</h5>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="javascript" height="130" width="130"></canvas>
-						<p>Linux</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#1abc9c"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="bootstrap" height="130" width="130"></canvas>
-						<p>Python</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="wordpress" height="130" width="130"></canvas>
-						<p>Git Hub</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 65,
-										color:"#1abc9c"
-									},
-									{
-										value : 35,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					
-					<div class="col-lg-3 col-lg-offset-3 centered">
-						<canvas id="html" height="130" width="130"></canvas>
-						<p>Matlab</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 80,
-										color:"#1abc9c"
-									},
-									{
-										value : 20,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="photoshop" height="130" width="130"></canvas>
-						<p>TCP/IP</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#1abc9c"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="illustrator" height="130" width="130"></canvas>
-						<p>MySQL</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 50,
-										color:"#1abc9c"
-									},
-									{
-										value : 50,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
+	  var endata = [{
+			label: 'CET-4',
+			value: 569,
+			highlight: "#5AD3D1",
+			color: "#4D5360"
+		}, {
+        value: 141,
+        color: "#EEEEEE"
+		}
+		]
 
-			</div><!--/.row -->
-			<br>
-		</div><!--/.container -->
-	</div><!--/ #skillswrap -->
+		var enoptions = {
+			animation: true,
+			segmentShowStroke : false
+		};
 
-
-
-	<section id="work" name="work"></section>
-	<!--PORTFOLIO DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>PORTFOLIO</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><img class="img-responsive" src="assets/img/port01.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-					<p>CANALS OF ENGLAND</p>
-				<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-					<sm><i class="icon-tag"></i> design</sm></more> 
-				</p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="assets/img/port02.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-						<p>SANKEY</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-						<sm><i class="icon-tag"></i> front-end</sm></more> 
-					</p>
-				</div>
-				
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="assets/img/port03.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-						<p>WE GROW</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-						<sm><i class="icon-tag"></i> Operations Engineer</sm></more> 
-					</p>
-				</div>
+		var c = $('#en');
+		var ct = c.get(0).getContext('2d');
 		
-		</div><!--/.row -->
-		<br>
-		<br>
-	</div><!--/.container -->
-	
+		var enchart = new Chart(ct).Doughnut(endata, enoptions);
+	});
 
+});
 
-	<section id="contact" name="contact"></section>
-	<!--FOOTER DESCRIPTION -->
-	<div id="footwrap">
-		<div class="container">
-			<div class="row">
-			
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>CONTACT</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Email</t><br/>
-						yeungbeng@mail.com <br/>
-					</p>
-					<p><t>Adress</t><br/>
-						GDUT <br/>
-						Guangzhou university city <br/>
-						Guangdong, China. <br/>
-					</p>
-					<p><t>Phone</t><br/>
-						+86 13828401197 <br/>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>SOCIAL LINKS</sm></p>
-					<p>
-						<a href="#"><i class="icon-dribbble"></i></a>
-						<a href="#"><i class="icon-twitter"></i></a>
-						<a href="https://www.facebook.com/YeungBeng"><i class="icon-facebook"></i></a>
-						<a href="https://cn.linkedin.com/in/GeekBen"><i class="icon-linkedin"></i></a>
-						<a href="#"><i class="icon-apple"></i></a>
-
-					</p>
-				</div>
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #footer -->
-	
-	<div id="c">
-		<div class="container">
-			<p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
-		
-		</div>
-	</div>
-	
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.js"></script>
-  </body>
+</script>
+</body>
 </html>
