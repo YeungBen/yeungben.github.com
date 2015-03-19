@@ -10,7 +10,7 @@ paginate: 8
 paginate_path: "page:num"
 
 # presonal config
-domain: yeungben.github.com
+domain: www.youngeben.net
 title: Ben's Blog
 description: Linux,TCP/IP,Pythhon reading...
 author: Yeung Ben
