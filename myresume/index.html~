@@ -201,7 +201,7 @@
 
 <!-- 定义简历页底 //-->
 <div class="container">
-  <div class="row"><div class="footer text-center">Thank You for Your Reading!More About Me<a href="http://www.youngben.net"><span class="glyphicon glyphicon-log-in"></span></a> </div></div>
+  <div class="row"><div class="footer text-center">Thank You for Your Reading!More About Me<a href="src/index.html"><span class="glyphicon glyphicon-log-in"></span></a> </div></div>
 </div>
 
 <!-- 引入jQuery类库和Bootstrap3的Javascript类库 //-->
