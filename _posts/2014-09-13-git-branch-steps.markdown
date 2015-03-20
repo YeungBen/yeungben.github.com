@@ -1,6 +1,6 @@
 ---
 layout: post
-category: "python"
+category: "opensource"
 title:  "git分支开发、合并、删除等主要命令"
 tags: [git]
 ---
@@ -36,4 +36,4 @@ git tag -d v1.0 '删除本地tag
 git push --tag 'push本地tag到远程  
 git push origin --delete tag v1.0 '删除远程tag  
 
-（完~）
+

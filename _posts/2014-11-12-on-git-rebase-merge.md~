@@ -43,4 +43,4 @@ tags: ["git"]
     git reset --hard //rest to latest commit status
     git stash //save eidit status, back to latest commit status
 
-
+（完~）
