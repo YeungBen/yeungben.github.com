@@ -23,7 +23,9 @@ tags:["python:]
 >import pandas as pd
 
 #### Reading data locally
+{% highlight bash %}
 >df = pd.read_csv('/Users/al-ahmadgaidasaad/Documents/d.csv')
+{% endhighlight %}
 
 #### Reading data from web
 >data_url = "https://raw.githubusercontent.com/alstat/Analysis-with-Programming/master/2014/Python/Numerical-Descriptions-of-the-Data/data.csv"
