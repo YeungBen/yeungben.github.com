@@ -2,10 +2,6 @@
 layout: default
 title: "Welcome"
 ---
-<head>
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="icon" href="favicon.ico">
-</head>
 <h1 class="page-header">
   <small>
     {{ site.description }}
