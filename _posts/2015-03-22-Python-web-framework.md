@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "web"
-tags: python
+tags: ["python"]
 title: ["Python web framework"]
 ---
 
