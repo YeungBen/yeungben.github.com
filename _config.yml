@@ -12,7 +12,7 @@ paginate_path: "page:num"
 # presonal config
 domain: www.youngeben.net
 title: Ben's Blog
-description: Linux,TCP/IP,Pythhon reading...
+description: Know more. Do more. Do better.
 author: Yeung Ben
 email: yeungben@163.com
 github: yeungben
