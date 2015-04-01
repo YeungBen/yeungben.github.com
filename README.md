@@ -4,12 +4,12 @@
 ###博客地址
 
 http://blog.youngben.net
-(修改自http://painterlin.com)
+
 ####使用本项目作为博客模板，仅需如下几步：
 
   1.首先Fork或Download一份本项目代码。
 
-  2.修改_config.yaml及about.md文件，以变更个人信息。
+  2.修改_config.yaml文件，以变更个人信息。
 
   3.修改_include目录下相关文件，以配置网站统计(googleanalytics.html)，网友评论(disqus.html)等。
 
