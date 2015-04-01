@@ -27,6 +27,7 @@ http://blog.youngben.net
 如需查看或管理网站统计、评论或广告，请自行注册帐号并修改_config.yaml目录下相关配置。
 
 button属性修改在bootstrap.css里面
+
 button显示修改在-include/footer.html和base.js里面
 
 ####联系方式
@@ -40,7 +41,9 @@ email(yeungben@163.com)
 
 ####使用本项目作模板的博客链接
 http://blog.youngben.net
+
 (你的位置)
+
  *^_^*如果愿意，Star本项目一个吧~
 
 
