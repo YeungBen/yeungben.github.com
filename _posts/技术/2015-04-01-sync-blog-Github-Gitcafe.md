@@ -21,8 +21,8 @@ description:
         fetch = +refs/heads/*:refs/remotes/github/*
         url = git@github.com:yeungben/yeungben.github.com.git
     [remote "gitcafe"]
-        fetch = +refs/heads/*:refs/remotes/gitcafe/*
-        url = git@gitcafe.com:yeungben/yeungben.git
+        url = git@gitcafe.com:YeungBen/YeungBen.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
 
 之后将仓库 push 到 GitCafe 上（必须使用 gitcafe-pages 分支）：
 
