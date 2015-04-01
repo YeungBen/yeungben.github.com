@@ -17,32 +17,33 @@ description:
 
 打开 .git/config，修改远程仓库，将 origin 改为 github，并添加 gitcafe：
 
-[remote "github"]
-    fetch = +refs/heads/*:refs/remotes/github/*
-    url = git@github.com:yeungben/yeungben.github.com.git
-[remote "gitcafe"]
-    fetch = +refs/heads/*:refs/remotes/gitcafe/*
-    url = git@gitcafe.com:yeungben/yeungben.git
+    [remote "github"]
+        fetch = +refs/heads/*:refs/remotes/github/*
+        url = git@github.com:yeungben/yeungben.github.com.git
+    [remote "gitcafe"]
+        fetch = +refs/heads/*:refs/remotes/gitcafe/*
+        url = git@gitcafe.com:yeungben/yeungben.git
 
 之后将仓库 push 到 GitCafe 上（必须使用 gitcafe-pages 分支）：
 
-  git push -u gitcafe master:gitcafe-pages
+    git push -u gitcafe master:gitcafe-pages
 
 GitCafe 上在“项目管理”中找到“自定义域名”，添加要绑定的域名，比如我是 blog.youngben.net。
 
 ###实现同步提交
 
 因为 GitHub 和 GitCafe 的 Pages 使用不同的分支，所以无法使用下面这种方式：
-  [remote "all"]
-    url = git@github.com:liberize/liberize.github.com.git
-    url = git@gitcafe.com:liberize/liberize.git
+
+    [remote "all"]
+      url = git@github.com:liberize/liberize.github.com.git
+      url = git@gitcafe.com:liberize/liberize.git
 
 然后执行 `git push all master` 同时 push。
 
 可以在 .git/config 中添加一个 alias 来实现：
-  [alias]
-    publish = !sh -c \"git push github master && git push gitcafe master:gitcafe-pages\"
+
+    [alias]
+      publish = !sh -c \"git push github master && git push gitcafe master:gitcafe-pages\"
 
 当需要 push 的时候，只需执行 git publish 就可以了。
 
-本作品由 [liberize](liberize@gmail.com) 创作,有修改.
