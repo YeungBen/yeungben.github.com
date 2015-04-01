@@ -7,7 +7,7 @@ keywords: Github,Gitcafe
 description:
 ---
 
-在 `V2EX` 上看到一个帖子，里面提到将博客同时托管在 GitHub 和 GitCafe 上，国外访客解析到 GitHub，国内访客解析到 GitCafe。禁不住 GitCafe 速度的诱惑，于是也动手在 GitCafe 上创建了一个博客镜像，并通过修改 git 设置实现了同步提交。
+最近Github受到长城墙持续的DDoS攻击,主页访问很不稳定,考虑转移到国内的Gitcafe上,恰好在 `V2EX` 上看到一个帖子，里面提到将博客同时托管在 GitHub 和 GitCafe 上，国外访客解析到 GitHub，国内访客解析到 GitCafe。禁不住 GitCafe 速度的诱惑，于是也动手在 GitCafe 上创建了一个博客镜像，并通过修改 git 设置实现了同步提交。
 
 
 ###将仓库拷贝到 GitCafe
