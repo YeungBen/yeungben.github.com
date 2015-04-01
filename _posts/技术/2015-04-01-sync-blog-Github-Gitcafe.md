@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 同时使用 GitHub 和 GitCafe 托管博客
-category: skill
+category: 技术
 tags: sync
 keywords: Github,Gitcafe
 description:
