@@ -3,7 +3,7 @@ paginate: 10
 markdown: redcarpet
 
 # 作者信息
-author: 
+author:
   name: Yeung Ben
   email: yeungben@163.com
   link: http://blog.youngben.net
@@ -24,7 +24,7 @@ favicon: /public/img/ben.png
 
 # google analytics 设置
 ga:
-  id: UA-61303211-1 
+  id: UA-61303211-1
   url: blog.youngben.net
 
 # disqus 设置
@@ -35,7 +35,7 @@ disqus:
 active: 读书
 
 # 首页除了最新文章外显示分类
-cates: 
+cates:
   - Optimization
   - Git
 
@@ -45,3 +45,4 @@ locals:
   about: 关于
   newest: 最新文章
   archive: 归档
+  search: 搜索
