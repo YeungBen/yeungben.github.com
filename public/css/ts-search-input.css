@@ -1,5 +1,5 @@
 body form input.ts-search-input {
-  color: green;
+  color: #1abc9c;
   font-weight: bold;
 }
 
@@ -10,7 +10,7 @@ body form input.ts-search-input {
 /* 改变选中的搜索结果的背景 */
 .tinysou-widget .autocomplete ul li.active {
   background: none;
-  background-color: red;
+  background-color: #1abc9c;
   border-top: 1px solid darkred;
   border-bottom: 1px solid darkred;
   -webkit-box-shadow: 0 1px 0 darkred inset;
