@@ -31,6 +31,9 @@ ga:
 disqus:
   shortname: yeungben
 
+# 站内搜索:
+# 微搜索:/pages/search.html
+
 # 主题设置，自动激活某个标签
 active: 读书
 
