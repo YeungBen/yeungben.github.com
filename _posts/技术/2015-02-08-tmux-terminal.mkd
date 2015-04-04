@@ -2,9 +2,9 @@
 layout: post
 category: 技术
 title: "tmux – Linux终端管理软件"
-tags: ["tmux,Linux,terminal"]
-keywords: 
-description: 
+tags: tmux,Linux,terminal
+keywords:
+description:
 ---
 
 非常有幸在Peter的介绍下结识了这款非常优秀的终端软件,并在多个个人Blog里提到Tmux,今天开始尝试使用它,第一感觉非常的友好和熟悉,经过配置可以很容易的上手,操作可以像Vim一样顺畅和简洁,非常推荐.
@@ -18,7 +18,7 @@ tmux是一个优秀的终端复用软件，类似GNU Screen，但来自于OpenBS
 
 '''sudo apt-get install tmux'''
 
-当然也可以下载最新的源码进行编译安装,在此不赘述. 
+当然也可以下载最新的源码进行编译安装,在此不赘述.
 
 附上官网主页:<http://tmux.sourceforge.net/>
 ###操作手册
@@ -63,7 +63,7 @@ w 通过窗口列表切换窗口
 
 f 在所有窗口中查找指定文本
 
-####面板操作 
+####面板操作
 ” 将当前面板平分为上下两块
 
 % 将当前面板平分为左右两块
