@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Docker与Vagrant之间的特点比较
-category: 最技术
+category: 技术
 tags: Docker,Vagrant
 keywords: 虚拟化
 description:
