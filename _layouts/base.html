@@ -12,9 +12,6 @@
           <div id="pjax">
             {{ content }}
           </div>
-          <div id="back-top">
-            <a href="#top" title="回到顶部"></a>
-          </div>
         </div>
       </div>
     </div>
@@ -22,11 +19,13 @@
   {% include footer.html %}
   {% include googleanalytics.html %}
 </body>
+          <div id="back-top">
+            <a href="#top" title="回到顶部"></a>
+          </div>
 </html>
 
 <!-- js for back to top -->
 <script>
-
 $("#back-top").hide();
 $(document).ready(function () {
   $(window).scroll(function () {
