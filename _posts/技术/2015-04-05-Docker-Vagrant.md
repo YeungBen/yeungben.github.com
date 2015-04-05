@@ -26,7 +26,7 @@ Mitchell作为vagrant的作者，其在DevOps的世界里面沉浸多年，接�
 
     比如在vagrant V1.6版本中，vagrant集成了docker-based development environments,因此Vagrant可以在windows，mac和linux上面提供docker服务。
 
-    
+
     vagrant没有想替代docker的想法，相反它还包含了docker的一些特性。
 
 　　
@@ -44,10 +44,10 @@ Mitchell作为vagrant的作者，其在DevOps的世界里面沉浸多年，接�
 
     如果你的项目必须使用Docker的容器，同时只能部署在Linux主机中。这个时候Docker的确是一个不错的选择。除此之外，我就看不到使用docker的优势了，相反你还浪费了vagrant很多的优点：
 
-  
+
     vagrant可以支持多种虚拟环境，例如 VirtualBox, VMware, AWS, OpenStack等等。无论你使用何种虚拟环境，vagrant都可以顺利执行起来。如果你使用了Docker，也可以在vagrant中顺利安装docker。
 
-    
+
     vagrant可以降低项目复杂度。或者换个说法：你只需要考虑如何执行你的项目就可以，而不论这个项目是用的docker还是什么别的。在未来，如果出现了docker的竞争者，那么vagrant也可以顺利执行它。
 
     vagrant可以运行在多个主机环境中，windows(XP以上)，MAC(10.5以上)，Linux(2.6内核版本以上)。如果你使用了docker，那么vagrant也可以在上面三种操作系统之上运行你的docker。
@@ -83,3 +83,5 @@ Mitchell作为vagrant的作者，其在DevOps的世界里面沉浸多年，接�
     其次，可锁定的环境参数(the lock-in argument)。""If you use Vagrant as an abstraction, you will not be locked into Docker!"站在管理虚拟机的vagrant角度上面看，这句说没有错：Docker不是另外一个独立的容器。像EC2和VMware一样，我们要避 免创造一个和其它工具相捆绑的东西。Docker对宿主机没有任何要求，它允许你通过轻量级的容器在任意地方进行部署。在你部署应用时，不需要考虑应该部 署到什么环境中。比如说：你可以在其他人提供的主机(很可能上面已经部署了EC2或者vagrant)上面部署应用。
 
     所以最后可以说：`Vagrant 适合用来管理虚拟机，而docker适合用来管理应用环境。`
+
+[附:Stack Overflow讨论贴](http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-io-for-creating-an-isolated-environment)
