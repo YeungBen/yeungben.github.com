@@ -44,7 +44,7 @@ cates:
 
 # qiniu CDN
 safe: false
-cdn_url : http://7xifey.com1.z0.glb.clouddn.com
+cdn_url : http://blog.qiniudn.com
 
 # 中文本地化
 locals:
