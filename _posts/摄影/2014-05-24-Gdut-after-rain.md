@@ -1,4 +1,4 @@
-https://dn-yeungben.qbox.me---
+---
 layout: post
 title: 雨后校园
 category: 摄影
