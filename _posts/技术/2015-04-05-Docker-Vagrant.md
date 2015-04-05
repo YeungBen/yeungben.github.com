@@ -7,7 +7,7 @@ keywords: 虚拟化
 description:
 ---
 
-![Alt text](/public/img/tech/2014-04-05-01.jpg)
+![Alt text](https://dn-yeungben.qbox.me/public/img/tech/2014-04-05-01.jpg)
 
 在去年好一段时间,在科技博客里就Docker已经讨论的很火热,关于Docker的技术性颠覆不再赘述,最近深入玩起Docker,很多功能真让人赞叹,在环境部署上减少了很多重复性的劳动,在操作上就像Github一样的熟悉,已经不是和Vmware同一层面了,但还是会不禁让人想起Vagrant也是同样的优秀,不自觉的拿这两个来做一下区分比较,恰好在Linux公社有关于这两个的比较,总结的比较好,摘录如下:
 
