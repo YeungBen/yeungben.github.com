@@ -43,8 +43,8 @@ cates:
   - Git
 
 # qiniu CDN
-safe: false
-cdn_url : http://blog.qiniudn.com
+# safe: false
+# cdn_url : https://dn-yeungben.qbox.me
 
 # 中文本地化
 locals:
