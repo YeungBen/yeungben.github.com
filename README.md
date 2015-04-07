@@ -24,7 +24,7 @@ http://www.youngben.net
 ####本项目使用了
   1.google的网站统计服务，官网：http://www.google.com/analytics/
 
-  2.友言的网友评论服务，官网：https://disqus.com/
+  2.Disqus的网友评论服务，官网：https://disqus.com/
 
 如需查看或管理网站统计、评论或广告，请自行注册帐号并修改_config.yaml目录下相关配置。
 
