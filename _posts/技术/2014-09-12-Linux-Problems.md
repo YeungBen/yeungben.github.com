@@ -18,7 +18,6 @@ description:
 
 ##实际问题
 ##1. 建立网络映射
-- Mac：`Finder`->`前往`->`连接服务器`->输入`smb://IPaddress/samba`->`连接`
 - Linux：`位置`->`连接服务器`->“服务类型”选择`自定义位置`->输入`smb://IPaddress/samba`->`连接`
 
 ##2. ssh登陆失败
