@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  <<心理罪>>之后
+title: <<心理罪>>之后
 category: 生活
 tags: reading
 keywords:
