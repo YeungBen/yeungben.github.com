@@ -2,7 +2,7 @@
 layout: post
 title: 网站结构优化策略
 category: 技术
-tags: Python
+tags: web optimize
 keywords:
 description:
 ---
@@ -40,7 +40,7 @@ Sitemap：http://www.domain.com/sitemap.xml。
 
 　　nofollow标签是由Google领头新创的一个标签，目的是尽量减少垃圾链接对搜索引擎的影响，减少博客的垃圾留言，目前百度、Google、Yahoo、微软都支持这一标签。当超级链接中出现nofollow标签后，搜索引擎会不考虑这些链接的权重，也不用使用这些链接用于排名。
 
-　　nofollow标签通常有两种使用方法：一种方法是将"nofollow"写在网页上的meta标签上，用来告诉搜索引擎不要抓取网页上的所有外部和包括内部链接。例如：<meta name="robots” content="nofollow” /> 。另一种方法是将"nofollow"放在超链接中，告诉搜索引擎不要抓取特定的链接。例如：<a rel="nofollow" href="url"> 。
+　　nofollow标签通常有两种使用方法：一种方法是将"nofollow"写在网页上的meta标签上，用来告诉搜索引擎不要抓取网页上的所有外部和包括内部链接。例如：```<meta name="robots” content="nofollow” /> 。另一种方法是将"nofollow"放在超链接中，告诉搜索引擎不要抓取特定的链接。例如：<a rel="nofollow" href="url"> 。```
 
 　　对于一个网站来说，为了安全保险起见，所有那些有可能是第三方提交的超级链接都应该添加nofollow标签。
 
