@@ -1,10 +1,10 @@
 ---
 layout: post
-category: 生活
+category: Moments
 title: "少学些招式，多长些内力"
 tags: ["致十年后的你"]
-keywords: 
-description: 
+keywords:
+description:
 ---
 
 这是一封Peter写给十年前的自己的一封信,看过之后,感慨许多,趁年轻,好好长内力.

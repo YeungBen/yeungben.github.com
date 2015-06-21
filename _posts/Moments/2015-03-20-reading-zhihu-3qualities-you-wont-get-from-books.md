@@ -1,10 +1,10 @@
 ---
 layout: post
-category: 生活
+category: Moments
 title: "哪些素质很重要，但却是读书学不来的？"
 tags: [阅读]
-keywords: 
-description: 
+keywords:
+description:
 ---
 
 转自知乎问答:书上找不到，也很少有人讨论的个人素质，我认为有以下三种：*1.人际交往中的期望值管理能力* *2.阈值自控意识* *3.应对主观时空扭曲的能力*
