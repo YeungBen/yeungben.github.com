@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Moments
+category: 一刻
 title: "哪些素质很重要，但却是读书学不来的？"
 tags: [阅读]
 keywords:

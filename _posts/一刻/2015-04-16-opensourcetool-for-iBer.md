@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 运维人员必须熟悉的运维工具汇总
-category: Career
+category: 一刻
 tags: tool
 keywords:
 description:

@@ -1,10 +1,10 @@
 ---
 layout: post
-category: Career
+category: 一刻
 title: "运维架构师-并不遥远的彼岸"
 tags: [iBer,Linux]
-keywords: 
-description: 
+keywords:
+description:
 ---
 
 提到架构师，大家都觉得挺神秘的，而作为运维领域的架构师，站在系统稳定和高可用、高扩展的角度，其承载着太多的责任和挑战。对于运维工程师来说，运维架构师就像是一个目标抑或是一座山峰。如何成为一名优秀的运维架构师？运维架构师应该具备何种职业素质？需要什么样的知识体系呢？

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Moments
+category: 一刻
 title: "少学些招式，多长些内力"
 tags: ["致十年后的你"]
 keywords:
