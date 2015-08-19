@@ -1,7 +1,7 @@
 ---
 layout: post
 title: <<心理罪>>之后
-category: 生活
+category: 一刻
 tags: reading
 keywords:
 description:
