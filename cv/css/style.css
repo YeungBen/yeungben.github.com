@@ -85,7 +85,7 @@ address span{
 .glyphicon {
   top:1px;
 }
-.glyphicon-file:before,.glyphicon-print:before,.glyphicon-download-alt,.glyphicon-envelope:before,.glyphicon-picture:before{
+.glyphicon-file:before,.glyphicons-user:before,.glyphicon-download-alt:before,.glyphicon-envelope:before,.glyphicon-picture:before{
     margin-right: 9px;
   font-size: 14px;
   color: #6ecadc;
