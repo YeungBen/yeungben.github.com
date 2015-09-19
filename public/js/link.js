@@ -1,4 +1,4 @@
-var radius = 120;
+var radius = 100;
 var dtr = Math.PI/180;
 var d=300;
 //Download by http://www.codefans.net
@@ -62,7 +62,7 @@ window.onload=function ()
 		mouseY/=5;
 	};
 
-	setInterval(update, 150);
+	setInterval(update, 200);
 
 	(function (){
 		var oS=document.createElement('script');
