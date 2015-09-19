@@ -1,7 +1,7 @@
 var radius = 100;
 var dtr = Math.PI/180;
-var d=300;
-//Download by http://www.codefans.net
+var d=500;
+
 var mcList = [];
 var active = false;
 var lasta = 1;
@@ -62,16 +62,7 @@ window.onload=function ()
 		mouseY/=5;
 	};
 
-	setInterval(update, 200);
-
-	(function (){
-		var oS=document.createElement('script');
-
-		oS.type='text/javascript';
-		oS.src='http://www.codefans.net';
-
-		document.body.appendChild(oS);
-	})();
+	setInterval(update, 150);
 };
 
 function update()
@@ -177,7 +168,7 @@ function positionAll()
 	var aTmp=[];
 	var oFragment=document.createDocumentFragment();
 
-	//Ëæ»úÅÅĞò
+	//éšæœºæ’åº
 	for(i=0;i<aA.length;i++)
 	{
 		aTmp.push(aA[i]);
@@ -209,7 +200,7 @@ function positionAll()
 			phi = Math.random()*(Math.PI);
 			theta = Math.random()*(2*Math.PI);
 		}
-		//×ø±ê±ä»»
+		//åæ ‡å˜æ¢
 		mcList[i-1].cx = radius * Math.cos(theta)*Math.sin(phi);
 		mcList[i-1].cy = radius * Math.sin(theta)*Math.sin(phi);
 		mcList[i-1].cz = radius * Math.cos(phi);
@@ -228,7 +219,7 @@ function doPosition()
 		aA[i].style.left=mcList[i].cx+l-mcList[i].offsetWidth/2+'px';
 		aA[i].style.top=mcList[i].cy+t-mcList[i].offsetHeight/2+'px';
 
-		aA[i].style.fontSize=2*mcList[i].scale/2+'em';
+		aA[i].style.fontSize=Math.ceil(12*mcList[i].scale/2)+8+'px';
 
 		aA[i].style.filter="alpha(opacity="+100*mcList[i].alpha+")";
 		aA[i].style.opacity=mcList[i].alpha;
