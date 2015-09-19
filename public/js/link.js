@@ -62,7 +62,7 @@ window.onload=function ()
 		mouseY/=5;
 	};
 
-	setInterval(update, 80);
+	setInterval(update, 100);
 
 	(function (){
 		var oS=document.createElement('script');
