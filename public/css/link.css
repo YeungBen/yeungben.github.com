@@ -6,5 +6,5 @@ body {background: #FFFFFF url(index.png) no-repeat center 240px;}
 #div1 .red {color:red;}
 #div1 .yellow {color:yellow;}
 /*Download by http://www.codefans.net*/
-p { font: 14px Microsoft YaHei; text-align: center; color: #ba0c0c; }
-p a { color: #ba0c0c; }
+#div1 p { font: 14px Microsoft YaHei; text-align: center; color: #ba0c0c; }
+#div1  p a { color: #ba0c0c; }
