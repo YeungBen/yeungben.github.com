@@ -235,6 +235,3 @@ function sineCosine( a, b, c)
 	sc = Math.sin(c * dtr);
 	cc = Math.cos(c * dtr);
 }
-
-function show(n){document.getElementById(n).style.display="block";}
-function hide(n){document.getElementById(n).style.display="none";}
