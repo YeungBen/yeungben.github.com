@@ -1,2 +1,2 @@
-function {document.getElementById(show).style.display="block";}
-function {document.getElementById(hide).style.display="none";}
+function show(n){document.getElementById(n).style.display="block";}
+function hide(n){document.getElementById(n).style.display="none";}
