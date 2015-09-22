@@ -5,7 +5,7 @@
 	outline: 0;
 }
 .side-bar a,.chat-tips i {
-	background-image: url(../img/gdt-img.png);
+	background-image: url(/public/img/gdt-img.png);
 	background-repeat: no-repeat;
 }
 /*右侧悬浮icon*/
