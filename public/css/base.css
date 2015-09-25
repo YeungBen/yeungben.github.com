@@ -55,11 +55,11 @@ body, html {
   border: 0px solid #fff;
 }
 .avatar:hover {
-    -webkit-animation: spin .35s linear infinite;
-    -moz-animation: spin .35s linear infinite;
-    -ms-animation: spin .35s linear infinite;
-    -o-animation: spin .35s linear infinite;
-    animation: spin .35s linear infinite; }
+    -webkit-animation: spin .50s linear infinite;
+    -moz-animation: spin .50s linear infinite;
+    -ms-animation: spin .50s linear infinite;
+    -o-animation: spin .50s linear infinite;
+    animation: spin .50s linear infinite; }
 
 .aside1_bottom {
   width: 100%;
