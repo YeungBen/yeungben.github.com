@@ -6,7 +6,7 @@
 body, html {
   margin: 0px;
   height: 100%;
-  overflow: hidden; 
+  overflow: hidden;
   background-color: #303030;
 }
 .row {
@@ -54,6 +54,13 @@ body, html {
   /*height: 90px;*/
   border: 0px solid #fff;
 }
+.avatar:hover {
+    -webkit-animation: spin .35s linear infinite;
+    -moz-animation: spin .35s linear infinite;
+    -ms-animation: spin .35s linear infinite;
+    -o-animation: spin .35s linear infinite;
+    animation: spin .35s linear infinite; }
+
 .aside1_bottom {
   width: 100%;
   position: absolute;
@@ -97,7 +104,7 @@ body, html {
 .aside3-content {
 /*  padding-left: 40px;
   padding-right: 40px;
-*/  
+*/
   padding: 0 5% 0 5%;
   color: #656565;
   line-height: 1.42857143;
