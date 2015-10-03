@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 孤独让人成瘾（下）依赖真实的关系
+title: 孤独让人成瘾下 依赖真实的关系
 category: 一刻
 tags: reading
 keywords:

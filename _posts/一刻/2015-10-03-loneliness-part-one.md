@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 孤独让人成瘾（上）对成瘾的误解
+title: 孤独让人成瘾上 对成瘾的误解
 category: 一刻
 tags: reading
 keywords:
