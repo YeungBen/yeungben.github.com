@@ -3,9 +3,9 @@
 
 ###博客地址
 
-http://blog.youngben.net
+http://blog.yeungben.com
 
-http://www.youngben.net
+http://www.yeungben.com
 
 ####使用本项目作为博客模板，仅需如下几步：
 
