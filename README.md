@@ -42,7 +42,7 @@ email(yeungben@163.com)
 
 
 ####使用本项目作模板的博客链接
-http://blog.youngben.net
+http://blog.yeungben.com
 
 (你的位置)
 
