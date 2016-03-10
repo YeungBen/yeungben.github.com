@@ -3,8 +3,10 @@ layout: page_title
 title: <i class="fa fa-home fa-lg"></i>
 titlename: Welcome
 ---
-<!--<br>--> 
+<!--<br>-->
 <center><h3><font color="#000080">Know </font><font color="#FFA500">More</font><font color="#2E8B57">.  </font><font color="#F08080">Do </font><font color="#00CED1">More</font><font color="red">.  </font><font color="#BA55D3">Do </font><font color="#601986">Better</font><font color="#556fb5">.</font></h3></center>
+
+
 <div class="row">
   <div class="col-md-12">
     <div class="panel panel-primary">
@@ -21,7 +23,7 @@ titlename: Welcome
     <div class="col-md-12">
       <div class="panel panel-primary">
         <div class="panel-heading">{{ cate }}</div>
-        {% for tag in site.tags %} 
+        {% for tag in site.tags %}
           {% if tag[0] == cate %}
             {% for post in tag[1] %}
               <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
@@ -35,4 +37,4 @@ titlename: Welcome
     </div>
   {% endfor %}
 </div>
- 
+
