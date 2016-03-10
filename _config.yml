@@ -1,6 +1,9 @@
 permalink: /:year/:month/:day/:title.html
 paginate: 10
 markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
 
 # 作者信息
 author:
