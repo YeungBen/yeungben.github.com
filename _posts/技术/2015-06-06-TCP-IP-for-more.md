@@ -20,7 +20,7 @@ description:
 
 你觉得自己完全了解 TCP/IP 协议族吗？让我们试试看：
 
-###古老的问题
+### 古老的问题
 
 1）TCP 最小的端口号是多少?
 
@@ -32,7 +32,7 @@ description:
 
 5）socket中的 IP_FREEBIND 选项有什么用？
 
-###被遗忘奇葩问题
+### 被遗忘奇葩问题
 
 6）PSH 标志实际上有什么用？
 
@@ -42,7 +42,7 @@ description:
 
 9）TCP 的同时开放连接是如何工作的？真的能工作么？
 
-###碎片处理和拥塞控制
+### 碎片处理和拥塞控制
 
 10）什么是愚笨窗口综合征（stupid window syndrome）？
 
@@ -50,19 +50,19 @@ description:
 
 12）IP 头里的 ID 字段是什么？ID 字段必须和 DF 比特位一起完成什么工作？为什么有些 IP 包的 ID 字段不是零并且设置了 DF？
 
-###新提议
+### 新提议
 
 13）SYN 包可以有荷载么？（提示：新RFC提案）
 
 14）SYN+ACK 包可以有荷载么？
 
-###ICMP Path MTU
+### ICMP Path MTU
 
 15）ICMP 包太大（packet-too-big ）的消息会由路由器返回，并且荷载里包含了原始包的一部分。Linux 系统中可接受的最小荷载长度是多少？
 
 16）当 ICMP包太大（packet-too-big ）的消息被中间路由返回时会包含这个路由的源IP。但在实际操作中，我们经常可以看到 ICMP 消息的源 IP 与原始包的目的 IP 相同。为什么会这样？
 
-###Linux配置
+### Linux配置
 
 17）Linux 有一个名为 “tcp_no_metrics_save” 的 sysctl 设置。它用于存储什么？存储多久？
 
@@ -70,7 +70,7 @@ description:
 
 19）如果 SYN 队列因变得很大而导致溢出，那么会发生什么？
 
-###路由相关
+### 路由相关
 
 最后：
 

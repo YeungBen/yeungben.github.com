@@ -4,25 +4,25 @@ title: 各类范数
 category: 科研
 tags: Math
 keywords: 向量范数，矩阵范数
-description: 
+description:
 ---
 
-###向量范数
+### 向量范数
 ![vector_norms](/public/img/posts/vector_norms.JPG)
 
 
-###矩阵范数
+### 矩阵范数
 ![matrix_norms](/public/img/posts/matrix_norms.JPG)
 
 
-###矩阵乘积的迹
+### 矩阵乘积的迹
 ![trace](/public/img/posts/trace.JPG)
 
-###特殊范数
+### 特殊范数
 - 矩阵W的L2-1范数：
 ![2_1norm](/public/img/posts/2_1norm.png)
 
-###TV范数
+### TV范数
 ||L(x)||_1。 其中L是差分算子，x是某种数字信号，在一维情况下，如下所示：
 
 ||L(x)||_1 = |x2-x1| + |x3-x2| + |x4-x3| + ……

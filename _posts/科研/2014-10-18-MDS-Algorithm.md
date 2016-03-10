@@ -4,21 +4,21 @@ title: MDS
 category: 科研
 tags: Algorithm
 keywords: 降维,多维尺度分析
-description: 
+description:
 ---
 
-###About
+### About
 Multidimensional scaling (MDS) is a means of visualizing the level of similarity of individual cases of a dataset. It refers to a set of related ordination techniques used in information visualization, in particular to display the information contained in a distance matrix. An MDS algorithm aims to place each object in N-dimensional space such that the between-object distances are preserved as well as possible. Each object is then assigned coordinates in each of the N dimensions. The number of dimensions of an MDS plot N can exceed 2 and is specified a priori. Choosing N=2 optimizes the object locations for a two-dimensional scatterplot.
 
 
-###MDS & GMDS
-####Classical multidimensional scaling
+### MDS & GMDS
+#### Classical multidimensional scaling
 Also known as Principal Coordinates Analysis, Torgerson Scaling or Torgerson–Gower scaling. Takes an input matrix giving dissimilarities between pairs of items and outputs a coordinate matrix whose configuration minimizes a loss function called strain
 
-####Generalized multidimensional scaling
+#### Generalized multidimensional scaling
 An extension of metric multidimensional scaling, in which the target space is an arbitrary smooth non-Euclidean space. In cases where the dissimilarities are distances on a surface and the target space is another surface, GMDS allows finding the minimum-distortion embedding of one surface into another.
 
-###Procedure
+### Procedure
 
 There are several steps in conducting MDS research:
 
@@ -29,6 +29,6 @@ There are several steps in conducting MDS research:
     5.Mapping the results and defining the dimensions – The statistical program (or a related module) will map the results. The map will plot each product (usually in two-dimensional space). The proximity of products to each other indicate either how similar they are or how preferred they are, depending on which approach was used. How the dimensions of the embedding actually correspond to dimensions of system behavior, however, are not necessarily obvious. Here, a subjective judgment about the correspondence can be made (see perceptual mapping).
     6.Test the results for reliability and validity – Compute R-squared to determine what proportion of variance of the scaled data can be accounted for by the MDS procedure. An R-square of 0.6 is considered the minimum acceptable level.[citation needed] An R-square of 0.8 is considered good for metric scaling and .9 is considered good for non-metric scaling. Other possible tests are Kruskal’s Stress, split data tests, data stability tests (i.e., eliminating one brand), and test-retest reliability.
     7.Report the results comprehensively – Along with the mapping, at least distance measure (e.g., Sorenson index, Jaccard index) and reliability (e.g., stress value) should be given. It is also very advisable to give the algorithm (e.g., Kruskal, Mather), which is often defined by the program used (sometimes replacing the algorithm report), if you have given a start configuration or had a random choice, the number of runs, the assessment of dimensionality, the Monte Carlo method results, the number of iterations, the assessment of stability, and the proportional variance of each axis (r-square).
-    
-###External links
+
+### External links
 【1】[Wiki](http://en.wikipedia.org/wiki/Multidimensional_scaling)

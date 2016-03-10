@@ -3,13 +3,13 @@ layout: post
 category: 技术
 title:  "Windows下Jekyll指南"
 tags: [Jekyll,Windows]
-keywords: 
-description: 
+keywords:
+description:
 ---
 
 提示：尽量用1.9.x版本的RubyInstaller，已含运行Jekyll所需的yajl依赖包。RubyInstallerv2.0以上版本需自行安装yajl-ruby，容易出错。
 
-一、安装Ruby执行环境
+### 一、安装Ruby执行环境
 
 rubyinstaller-1.9.3-p392.exe,安装，很简单。
 
@@ -23,7 +23,7 @@ ruby --version
 
 输出ruby 1.9.3p392 (2013-02-22) [i386-mingw32]则表明Ruby安装成功。
 
-二、安装Rdiscount及Jekyll
+### 二、安装Rdiscount及Jekyll
 
 {% highlight bash %}
 gem install rdiscount
@@ -33,7 +33,7 @@ jekyll --version
 
 输出类似Jekyll 0.12.1信息则Jekyll安装成功。
 
-三、执行Jekyll
+### 三、执行Jekyll
 
 进入Jekyll所在目录
 

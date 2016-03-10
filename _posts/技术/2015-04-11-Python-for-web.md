@@ -7,14 +7,14 @@ keywords:
 description:
 ---
 
-###最基本的抓站
+### 最基本的抓站
 ```python
 import urllib2
 
 content = urllib2.urlopen('http://XXXX').read()
 ```
 
-###使用代理服务器
+### 使用代理服务器
 
 ```python
 import urllib2
@@ -28,9 +28,9 @@ urllib2.install_opener(opener)
 content = urllib2.urlopen('http://XXXX').read()
 ```
 
-###需要登陆的情况
+### 需要登陆的情况
 
-####cookie的处理
+#### cookie的处理
 ```python
 import urllib2, cookielib
 cookie_support= urllib2.HTTPCookieProcessor(cookielib.CookieJar())
@@ -41,7 +41,7 @@ content = urllib2.urlopen('http://XXXX').read()
 opener = urllib2.build_opener(proxy_support, cookie_support, urllib2.HTTPHandler)
 ```
 
-####表单的处理
+#### 表单的处理
 ```python
 import urllib
 postdata=urllib.urlencode({
@@ -59,7 +59,7 @@ req = urllib2.Request(url = 'http://secure.verycd.com/signin/*/http://www.verycd
 
 result = urllib2.urlopen(req).read()
 
-####伪装成浏览器访问
+#### 伪装成浏览器访问
 
 ```python
 headers = {
@@ -76,16 +76,16 @@ headers = headers )
 
 ```
 
-####反“反盗链”
+#### 反“反盗链”
 ```python
 headers = { 'Referer':'http://www.cnbeta.com/articles' }
 ```
 
-####终极绝招
+#### 终极绝招
 
 使用selenium工具控制浏览器进行访问，只要浏览器能做到的，它都能做到。类似的工具有：pamie/watir
 
-###多线程抓取
+### 多线程抓取
 
 ```python
 from threading import Thread
