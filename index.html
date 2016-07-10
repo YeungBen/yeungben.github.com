@@ -9,6 +9,18 @@ titlename: Welcome
 
 <div class="row">
 
+  <div class="col-md-12">
+    <div class="panel panel-primary">
+        <div class="panel-heading">{{ site.locals.newest }}</div>
+        {% for post in paginator.posts %}
+        <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
+            {{post.title}}
+            <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
+        </a>
+        {% endfor %}
+    </div>
+  </div>
+
   {% for cate in site.cates %}
     <div class="col-md-12">
       <div class="panel panel-primary">
@@ -27,17 +39,7 @@ titlename: Welcome
     </div>
   {% endfor %}
 
-  <div class="col-md-12">
-    <div class="panel panel-primary">
-        <div class="panel-heading">{{ site.locals.newest }}</div>
-        {% for post in paginator.posts %}
-        <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
-            {{post.title}}
-            <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
-        </a>
-        {% endfor %}
-    </div>
-  </div>
+
 
 
 </div>
