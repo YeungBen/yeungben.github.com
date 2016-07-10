@@ -1,0 +1,52 @@
+body form input.ts-search-input {
+  color: #000000;
+  font-weight: bold;
+}
+
+/* 改变搜索结果字体颜色 */
+.tinysou-widget .autocomplete ul li p.title {
+  color: #696969;
+}
+/* 改变选中的搜索结果的背景 */
+.tinysou-widget .autocomplete ul li.active {
+  background: none;
+  background-color: #1abc9c;
+  border-top: 1px solid #1abc9c;
+  border-bottom: 1px solid #1abc9c;
+  -webkit-box-shadow: 0 1px 0 #1abc9c inset;
+}
+/* 改变section的字体颜色 */
+.tinysou-widget .autocomplete ul li.active .sections em {
+  color: white;
+}
+
+/*搜索结果链接颜色*/
+.ts-result a {
+  color: #C0242D;
+}
+.ts-result a:visited {
+  color: #0B2644;
+}
+.ts-result a:hover {
+  color: #00008B;
+}
+
+/*搜索结果高亮*/
+.ts-snippet em {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+/*搜索结果字体*/
+.ts-result {
+  font-family: 'Comic Sans MS';
+}
+.ts-result h3 a {
+  font-family: 'Comic Sans MS';
+  font-size: 20px;
+}
+.ts-result .ts-snippet {
+  color: Crimson;
+  font-size: 18px;
+}

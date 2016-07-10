@@ -1,21 +1,25 @@
 ---
-layout: default
+layout: base
 ---
+<div class="row">
+  <div class="col-md-13 aside3-title">
+    <br>
+    <h2 id="#identifier">{{ page.title }}</h2>
+    {{ page.date | date:"%Y年%m月%d日" }}
+  </div>
+  <div class="col-md-13 aside3-content">
+    <hr>
+    <div id="content">
+      {{ content }}
+    </div>
+    <hr>
+    {% include disqus.html %}
+  </div>
+  <!-- 目录 -->
+  <div id="content_table" style="position:fixed;right:20px;top:120px;display:none;">
+    <div class="panel panel-success">
+      <div class="panel-body" id="nav"></div>
+    </div>
+  </div>
+</div>
 
-<h1>{{ page.title }}</h1>
-<p>
-  <span class="label label-info">
-    <i class="fa fa-fw fa-calendar-o"></i>
-    {{ page.date | date_to_string }}
-  </span>
-  &nbsp;
-  {% for tag in page.tags %}
-    <span class="label label-default">
-      <i class="fa fa-fw fa-tag"></i>
-      {{ tag }}
-    </span>
-    {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</p>
-<hr />
-{{ content }}
