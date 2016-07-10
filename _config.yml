@@ -1,58 +1,52 @@
-permalink: /:year/:month/:day/:title.html
-paginate: 10
-markdown: kramdown
-kramdown:
-    input: GFM
-highlighter: rouge
+# user variables, change this to make custom site.
 
-# 作者信息
+name: Lemma
+desc: Yet another simple theme for Jekyll.
 author:
-  name: Yeung Ben
-  email: yeungben@163.com
-  link: http://blog.yeungben.com
-  weibo: http://weibo.com/GeekBen
-  github: http://github.com/yeungben
-  music: http://douban.fm/
-  linkedin: https://cn.linkedin.com/in/geekben
+  name: neizod
+  avatar: //gravatar.com/avatar/daa1cc36ed2ab0d13045d5cd2431cde9?s=320
+  profile: |
+    Just another ordinary grad student in computer engineering.
+    I'm interest in programming language, algorithm, and mathematics.
 
-# 站点信息
-title: Ben's Blog
-description: My personal blog
-url: http://blog.yeungben.com
-rss_url: /pages/atom.xml
+    I live in Chiang Mai or Bangkok, Thailand.
+    And you may found me around BarCamp event ;D
+  socials:
+    facebook:
+    twitter: //twitter.com/neizod
+    google-plus:
+    github: //github.com/neizod
+    stack-overflow: //stackoverflow.com/users/889578/neizod
+    instagram:
+    pinterest:
+    steam: //steamcommunity.com/id/neizod/
+license: MIT License
 
-# gavatar头像及Favicon
-gavatar: /public/img/Me.png
-favicon: /public/img/ben.png
 
-# google analytics 设置
-ga:
-  id: UA-61303211-1
-  url: blog.yeungben.com
+# theme variables, change this to make site looks best.
+baseurl: /lemma-theme
+paginate: 2
 
-# disqus 设置
-disqus:
-  shortname: yeungben
 
-# 站内搜索:
-# 微搜索:/pages/search.html
+# system variables, do not change unless you knew what's it does.
+paginate_path: page/:num
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
 
-# 主题设置，自动激活某个标签
-active: 读书
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-# 首页除了最新文章外显示分类
-cates:
-  - Optimization
-  - Git
-
-# qiniu CDN
-# safe: false
-# cdn_url : https://dn-yeungben.qbox.me
-
-# 中文本地化
-locals:
-  tags: 标签
-  about: 关于
-  newest: 最新文章
-  archive: 归档
-  search: 搜索
+sass:
+  sass_dir: _sass
+  style: compressed
