@@ -21,6 +21,23 @@ titlename: Welcome
     </div>
   </div>
 
+  {% if paginator.total_pages > 1 %}
+  {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}">上一页</a>
+        {% endif %}
+
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}">下一页</a>
+        {% endif %}
+    {% endif %}
+    {% for page in (1..paginator.total_pages) %}
+        {% if page == 1 %}
+            <a href="/index.html">{{ page }}</a>
+        {% else %}
+            <a href="{{ site.paginate_path | replace: ':num',page }}">{{ page }}</a>
+        {% endif %}
+    {% endfor %}
+
   {% for cate in site.cates %}
     <div class="col-md-12">
       <div class="panel panel-primary">
