@@ -9,34 +9,33 @@ titlename: Welcome
 
 <div class="row">
 
-  <div class="col-md-12">
-    <div class="panel panel-primary">
-        <div class="panel-heading">{{ site.locals.newest }}</div>
-        {% for post in paginator.posts %}
-        <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
-            {{post.title}}
-            <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
-        </a>
-        {% endfor %}
-    </div>
+  <!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
   </div>
+{% endfor %}
 
-  {% if paginator.total_pages > 1 %}
+<!-- Pagination links -->
+<div class="pagination">
   {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}">上一页</a>
-        {% endif %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
 
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}">下一页</a>
-        {% endif %}
-    {% endif %}
-    {% for page in (1..paginator.total_pages) %}
-        {% if page == 1 %}
-            <a href="/index.html">{{ page }}</a>
-        {% else %}
-            <a href="{{ site.paginate_path | replace: ':num',page }}">{{ page }}</a>
-        {% endif %}
-    {% endfor %}
+
 
   {% for cate in site.cates %}
     <div class="col-md-12">
