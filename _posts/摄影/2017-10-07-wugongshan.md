@@ -27,8 +27,6 @@ description:
 
 ![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/010.jpg)
 
-![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/012.jpg)
-
 ![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/013.jpg)
 
 ![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/014.jpg)
