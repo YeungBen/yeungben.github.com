@@ -9,11 +9,11 @@ description:
 
 ![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/001.jpg)
 
-![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/002.PNG)
+![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/002.png)
 
-![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/003.JPG)
+![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/003.jpg)
 
-![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/004.JPG)
+![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/004.jpg)
 
 ![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/005.jpg)
 
@@ -33,5 +33,5 @@ description:
 
 ![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/014.jpg)
 
-![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/015.JPG)
+![Alt text](https://dn-yeungben.qbox.me/public/img/photography/WG/015.jpg)
 
